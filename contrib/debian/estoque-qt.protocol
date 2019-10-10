@@ -1,0 +1,11 @@
+[Protocol]
+exec=estoque-qt '%u'
+protocol=estoque
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

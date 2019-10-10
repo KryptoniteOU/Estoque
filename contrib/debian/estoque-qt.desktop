@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Estoque
+Comment=Estoque P2P Cryptocurrency
+Comment[fr]=Estoque, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Estoque, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/estoque-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/estoque;
+Categories=Office;

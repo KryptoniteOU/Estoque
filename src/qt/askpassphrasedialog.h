@@ -1,19 +1,12 @@
-// Copyright (c) 2011-2018 The Bitcoin Core developers
-// Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-#ifndef BITCOIN_QT_ASKPASSPHRASEDIALOG_H
-#define BITCOIN_QT_ASKPASSPHRASEDIALOG_H
+#ifndef ASKPASSPHRASEDIALOG_H
+#define ASKPASSPHRASEDIALOG_H
 
 #include <QDialog>
-
-#include <support/allocators/secure.h>
-
-class WalletModel;
 
 namespace Ui {
     class AskPassphraseDialog;
 }
+class WalletModel;
 
 /** Multifunctional dialog to ask for passphrases. Used for encryption, unlocking, and changing the passphrase.
  */
@@ -23,13 +16,14 @@ class AskPassphraseDialog : public QDialog
 
 public:
     enum Mode {
-        Encrypt,    /**< Ask passphrase twice and encrypt */
-        Unlock,     /**< Ask passphrase and unlock */
-        ChangePass, /**< Ask old passphrase + new passphrase twice */
-        Decrypt     /**< Ask passphrase and decrypt wallet */
+        Encrypt,       /**< Ask passphrase twice and encrypt */
+        UnlockStaking, /**< Ask passphrase and unlock */
+        Unlock,        /**< Ask passphrase and unlock */
+        ChangePass,    /**< Ask old passphrase + new passphrase twice */
+        Decrypt        /**< Ask passphrase and decrypt wallet */
     };
 
-    explicit AskPassphraseDialog(Mode mode, QWidget *parent, SecureString* passphrase_out = nullptr);
+    explicit AskPassphraseDialog(Mode mode, QWidget *parent = 0);
     ~AskPassphraseDialog();
 
     void accept();
@@ -41,16 +35,12 @@ private:
     Mode mode;
     WalletModel *model;
     bool fCapsLock;
-    SecureString* m_passphrase_out;
 
-private Q_SLOTS:
+private slots:
     void textChanged();
-    void secureClearPassFields();
-    void toggleShowPassword(bool);
-
-protected:
     bool event(QEvent *event);
-    bool eventFilter(QObject *object, QEvent *event);
+    bool eventFilter(QObject *, QEvent *event);
+    void secureClearPassFields();
 };
 
-#endif // BITCOIN_QT_ASKPASSPHRASEDIALOG_H
+#endif // ASKPASSPHRASEDIALOG_H

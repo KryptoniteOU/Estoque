@@ -1,118 +1,153 @@
-<TS language="nl" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="+14"/>
+        <source>About Estoque</source>
+        <translation>Over Estoque</translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>&lt;b&gt;Estoque&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Estoque&lt;/b&gt; versie</translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>Copyright © 2009-2014 The Bitcoin developers
+Copyright © 2012-2014 The NovaCoin developers
+Copyright © 2014 The Estoque developers</source>
+        <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
+Copyright © 2012-2014 De NovaCoin ontwikkelaars
+Copyright © 2014 De Estoque ontwikkelaars</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Rechtermuisklik om het adres of label te wijzigen</translation>
+        <location filename="../forms/addressbookpage.ui" line="+14"/>
+        <source>Address Book</source>
+        <translation>Adresboek</translation>
     </message>
     <message>
+        <location line="+22"/>
+        <source>Double-click to edit address or label</source>
+        <translation>Dubbelklik om het adres of label te wijzigen</translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>Create a new address</source>
         <translation>Maak een nieuw adres aan</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Nieuw</translation>
-    </message>
-    <message>
+        <location line="+10"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopieer het geselecteerde adres naar het klembord</translation>
+        <translation>Kopieer het huidig geselecteerde adres naar het klembord</translation>
     </message>
     <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopieer</translation>
+        <location line="-7"/>
+        <source>&amp;New Address</source>
+        <translation>&amp;Nieuw adres</translation>
     </message>
     <message>
-        <source>C&amp;lose</source>
-        <translation>S&amp;luiten</translation>
+        <location line="-43"/>
+        <source>These are your Estoque addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn al jou Estoque adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
     </message>
     <message>
+        <location line="+53"/>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Kopiëer Adres</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Show &amp;QR Code</source>
+        <translation>Toon &amp;QR Code</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Sign a message to prove you own a Estoque address</source>
+        <translation>Teken een bericht om te bewijzen dat je een Estoque adres bezit.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Sign &amp;Message</source>
+        <translation>Teken &amp;Bericht</translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Delete the currently selected address from the list</source>
         <translation>Verwijder het geselecteerde adres van de lijst</translation>
     </message>
     <message>
-        <source>Enter address or label to search</source>
-        <translation>Vul adres of label in om te zoeken</translation>
+        <location line="-10"/>
+        <source>Verify a message to ensure it was signed with a specified Estoque address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Estoque adres</translation>
     </message>
     <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
+        <location line="+3"/>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Verifieer Bericht</translation>
     </message>
     <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Exporteer</translation>
-    </message>
-    <message>
+        <location line="+10"/>
         <source>&amp;Delete</source>
         <translation>&amp;Verwijder</translation>
     </message>
     <message>
-        <source>Choose the address to send coins to</source>
-        <translation>Kies het adres om munten naar te versturen</translation>
-    </message>
-    <message>
-        <source>Choose the address to receive coins with</source>
-        <translation>Kies het adres om munten op te ontvangen</translation>
-    </message>
-    <message>
-        <source>C&amp;hoose</source>
-        <translation>K&amp;iezen</translation>
-    </message>
-    <message>
-        <source>Sending addresses</source>
-        <translation>Verzendadressen</translation>
-    </message>
-    <message>
-        <source>Receiving addresses</source>
-        <translation>Ontvangstadressen</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Bitcoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw bitcoins verzendt.</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.</source>
-        <translation>Dit zijn jouw Bitcoin adressen voor het ontvangen van betalingen. Gebruik de 'Nieuwe ontvangst adres maken' knop in de ontvangst tab om een nieuwe adres te maken.</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiëer adres</translation>
-    </message>
-    <message>
+        <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopieer &amp;label</translation>
+        <translation>Kopiëer &amp;Label</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation>&amp;Bewerk</translation>
     </message>
     <message>
-        <source>Export Address List</source>
-        <translation>Exporteer adreslijst</translation>
+        <location line="+248"/>
+        <source>Export Address Book Data</source>
+        <translation>Exporteer Adresboek Data</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Kommagescheiden bestand (*.csv)</translation>
     </message>
     <message>
-        <source>Exporting Failed</source>
-        <translation>Exporteren mislukt</translation>
+        <location line="+13"/>
+        <source>Error exporting</source>
+        <translation>Fout bij exporteren</translation>
     </message>
     <message>
-        <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Een fout is opgetreden tijdens het opslaan van deze adreslijst naar %1. Probeer het nogmaals.</translation>
+        <location line="+0"/>
+        <source>Could not write to file %1.</source>
+        <translation>Kan niet schrijven naat bestand %1</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
+        <location filename="../addresstablemodel.cpp" line="+145"/>
         <source>Label</source>
         <translation>Label</translation>
     </message>
     <message>
+        <location line="+0"/>
         <source>Address</source>
         <translation>Adres</translation>
     </message>
     <message>
+        <location line="+36"/>
         <source>(no label)</source>
         <translation>(geen label)</translation>
     </message>
@@ -120,1237 +155,1094 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>Wachtwoordzindialoog</translation>
+        <translation>Wachtwoordscherm</translation>
     </message>
     <message>
+        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Voer wachtwoordzin in</translation>
+        <translation>Voer wachtwoord in</translation>
     </message>
     <message>
+        <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Nieuwe wachtwoordzin</translation>
+        <translation>Nieuw wachtwoord</translation>
     </message>
     <message>
+        <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Herhaal nieuwe wachtwoordzin</translation>
+        <translation>Herhaal wachtwoord</translation>
     </message>
     <message>
-        <source>Show passphrase</source>
-        <translation>Laat wachtwoord zien</translation>
+        <location line="+33"/>
+        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <translation>Bedoeld om het command &apos;sendmoney&apos; uit te schakelen indien het OS niet meer veilig is. Geeft geen echte beveiliging.</translation>
     </message>
     <message>
+        <location line="+3"/>
+        <source>For staking only</source>
+        <translation>Alleen voor staking</translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="+38"/>
         <source>Encrypt wallet</source>
         <translation>Versleutel portemonnee</translation>
     </message>
     <message>
+        <location line="+7"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te openen.</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>Unlock wallet</source>
         <translation>Open portemonnee</translation>
     </message>
     <message>
+        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te ontsleutelen</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>Decrypt wallet</source>
         <translation>Ontsleutel portemonnee</translation>
     </message>
     <message>
+        <location line="+3"/>
         <source>Change passphrase</source>
         <translation>Wijzig wachtwoord</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Vul uw oude en nieuwe portemonneewachtwoord in.</translation>
+    </message>
+    <message>
+        <location line="+45"/>
         <source>Confirm wallet encryption</source>
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BITCOINS VERLIEZEN&lt;/b&gt;!</translation>
+        <location line="+1"/>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als je je portemonnee versleuteld en je verliest je wachtwoord zul je &lt;b&gt;AL JE MUNTEN VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
+        <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Wallet encrypted</source>
-        <translation>Portemonnee versleuteld</translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Onthoud dat het versleutelen van uw portemonnee uw bitcoins niet volledig kan beschermen tegen diefstal, bijvoorbeeld door malware die uw computer infecteert.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>Portemonnee om te versleutelen</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>Je portemonnee gaat versleuteld worden.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>Je portemonnee is nu versleuteld.</translation>
-    </message>
-    <message>
+        <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>BELANGRIJK: Elke eerder gemaakte backup van uw portemonneebestand dient u te vervangen door het nieuw gegenereerde, versleutelde portemonneebestand. Om veiligheidsredenen zullen eerdere backups van het niet-versleutelde portemonneebestand onbruikbaar worden zodra u uw nieuwe, versleutelde, portemonnee begint te gebruiken.</translation>
     </message>
     <message>
+        <location line="+103"/>
+        <location line="+24"/>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Waarschuwing: De Caps-Lock-toets staat aan!</translation>
+    </message>
+    <message>
+        <location line="-133"/>
+        <location line="+60"/>
+        <source>Wallet encrypted</source>
+        <translation>Portemonnee versleuteld</translation>
+    </message>
+    <message>
+        <location line="-140"/>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+82"/>
+        <source>Estoque will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Estoque zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <location line="+7"/>
+        <location line="+44"/>
+        <location line="+6"/>
         <source>Wallet encryption failed</source>
         <translation>Portemonneeversleuteling mislukt</translation>
     </message>
     <message>
+        <location line="-56"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Portemonneeversleuteling mislukt door een interne fout. Uw portemonnee is niet versleuteld.</translation>
     </message>
     <message>
+        <location line="+7"/>
+        <location line="+50"/>
         <source>The supplied passphrases do not match.</source>
         <translation>De opgegeven wachtwoorden komen niet overeen</translation>
     </message>
     <message>
+        <location line="-38"/>
         <source>Wallet unlock failed</source>
         <translation>Portemonnee openen mislukt</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <location line="+12"/>
+        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Het opgegeven wachtwoord voor de portemonnee-ontsleuteling is niet correct.</translation>
     </message>
     <message>
+        <location line="-20"/>
         <source>Wallet decryption failed</source>
         <translation>Portemonnee-ontsleuteling mislukt</translation>
     </message>
     <message>
+        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Portemonneewachtwoord is met succes gewijzigd.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Waarschuwing: De Caps-Lock-toets staat aan!</translation>
-    </message>
-</context>
-<context>
-    <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Netmasker</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Geband tot</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
+        <location filename="../bitcoingui.cpp" line="+297"/>
         <source>Sign &amp;message...</source>
         <translation>&amp;Onderteken bericht...</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
-        <translation>Synchroniseren met netwerk...</translation>
-    </message>
-    <message>
-        <source>&amp;Overview</source>
-        <translation>&amp;Overzicht</translation>
-    </message>
-    <message>
+        <location line="-64"/>
         <source>Show general overview of wallet</source>
-        <translation>Toon algemeen overzicht van uw portemonnee</translation>
+        <translation>Toon algemeen overzicht van de portemonnee</translation>
     </message>
     <message>
+        <location line="+17"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transacties</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Blader door transactiegescheidenis</translation>
+        <translation>Blader door transactieverleden</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>&amp;Address Book</source>
+        <translation>&amp;Adresboek</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Edit the list of stored addresses and labels</source>
+        <translation>Wijzig de lijst met bewaarde adressen en labels</translation>
+    </message>
+    <message>
+        <location line="-18"/>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>Toon de lijst  aan adressen voor ontvangen betalingen</translation>
+    </message>
+    <message>
+        <location line="+34"/>
         <source>E&amp;xit</source>
-        <translation>A&amp;fsluiten</translation>
+        <translation>&amp;Afsluiten</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Quit application</source>
         <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <source>&amp;About %1</source>
-        <translation>&amp;Over %1</translation>
+        <location line="+4"/>
+        <source>Show information about Estoque</source>
+        <translation>Toon informatie over Estoque</translation>
     </message>
     <message>
-        <source>Show information about %1</source>
-        <translation>Toon informatie over %1</translation>
-    </message>
-    <message>
+        <location line="+2"/>
         <source>About &amp;Qt</source>
         <translation>Over &amp;Qt</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Toon informatie over Qt</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Opties...</translation>
     </message>
     <message>
-        <source>Modify configuration options for %1</source>
-        <translation>Wijzig configuratieopties voor %1</translation>
-    </message>
-    <message>
+        <location line="+4"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Versleutel portemonnee...</translation>
+        <translation>&amp;Versleutel Portemonnee...</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup portemonnee...</translation>
+        <translation>&amp;Backup Portemonnee...</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Wijzig Wachtwoord</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Open &amp;URI...</translation>
+        <location line="+9"/>
+        <source>&amp;Export...</source>
+        <translation>&amp;Exporteren...</translation>
     </message>
     <message>
-        <source>Create Wallet...</source>
-        <translation>Wallet creëren </translation>
+        <location line="-55"/>
+        <source>Send coins to a Estoque address</source>
+        <translation>Verstuur munten naar een Estoque adres</translation>
     </message>
     <message>
-        <source>Create a new wallet</source>
-        <translation>Nieuwe wallet creëren </translation>
+        <location line="+39"/>
+        <source>Modify configuration options for Estoque</source>
+        <translation>Verander configuratie opties voor Estoque</translation>
     </message>
     <message>
-        <source>Wallet:</source>
-        <translation>Portemonnee:</translation>
+        <location line="+17"/>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
     </message>
     <message>
-        <source>Click to disable network activity.</source>
-        <translation>Klik om de netwerkactiviteit te stoppen.</translation>
+        <location line="-13"/>
+        <source>Encrypt or decrypt wallet</source>
+        <translation>Versleutel of ontsleutel de portemonnee</translation>
     </message>
     <message>
-        <source>Network activity disabled.</source>
-        <translation>Netwerkactiviteit gestopt.</translation>
-    </message>
-    <message>
-        <source>Click to enable network activity again.</source>
-        <translation>Klik om de netwerkactiviteit opnieuw te starten.</translation>
-    </message>
-    <message>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>Blokhoofden synchroniseren (%1%)...</translation>
-    </message>
-    <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>Bezig met herindexeren van blokken op harde schijf...</translation>
-    </message>
-    <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Proxy is &lt;b&gt;ingeschakeld&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Verstuur munten naar een Bitcoinadres</translation>
-    </message>
-    <message>
+        <location line="+2"/>
         <source>Backup wallet to another location</source>
         <translation>Backup portemonnee naar een andere locatie</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Wijzig het wachtwoord voor uw portemonneversleuteling</translation>
     </message>
     <message>
+        <location line="+10"/>
         <source>&amp;Debug window</source>
         <translation>&amp;Debugscherm</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Open debugging en diagnostische console</translation>
     </message>
     <message>
+        <location line="-5"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifiëer bericht...</translation>
     </message>
     <message>
-        <source>&amp;Send</source>
-        <translation>&amp;Verstuur</translation>
+        <location line="-214"/>
+        <location line="+555"/>
+        <source>Estoque</source>
+        <translation>Estoque</translation>
     </message>
     <message>
-        <source>&amp;Receive</source>
-        <translation>&amp;Ontvangen</translation>
+        <location line="-555"/>
+        <source>Wallet</source>
+        <translation>Portemonnee</translation>
     </message>
     <message>
+        <location line="+193"/>
+        <source>&amp;About Estoque</source>
+        <translation>&amp;Over Estoque</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Toon / verberg</translation>
+        <translation>&amp;Toon / Verberg</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
-        <translation>Toon of verberg het hoofdvenster</translation>
+        <location line="+8"/>
+        <source>Unlock wallet</source>
+        <translation>Open portemonnee</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
+        <location line="+1"/>
+        <source>&amp;Lock Wallet</source>
+        <translation>&amp;Sluit portemonnee</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Bitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <location line="+1"/>
+        <source>Lock wallet</source>
+        <translation>Sluit portemonnee</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoinadressen</translation>
-    </message>
-    <message>
+        <location line="+32"/>
         <source>&amp;File</source>
         <translation>&amp;Bestand</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>&amp;Settings</source>
         <translation>&amp;Instellingen</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>&amp;Help</source>
         <translation>&amp;Hulp</translation>
     </message>
     <message>
+        <location line="+17"/>
         <source>Tabs toolbar</source>
         <translation>Tab-werkbalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en bitcoin: URI's)</translation>
+        <location line="+46"/>
+        <location line="+9"/>
+        <source>[testnet]</source>
+        <translation>[testnetwerk]</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>Toon de lijst met gebruikte verstuuradressen en -labels</translation>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>Toon de lijst met gebruikte ontvangstadressen en labels</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Open een bitcoin: URI of betalingsverzoek</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>&amp;Opdrachtregelopties</translation>
+        <location line="+0"/>
+        <location line="+58"/>
+        <source>Estoque client</source>
+        <translation>Estoque client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n actieve verbinding met Bitcoinnetwerk</numerusform><numerusform>%n actieve verbindingen met Bitcoinnetwerk</numerusform></translation>
+        <location line="+70"/>
+        <source>%n active connection(s) to Estoque network</source>
+        <translation><numerusform>%n actieve verbinding naar Estoque netwerk</numerusform><numerusform>%n actieve verbindingen naar Estoque netwerk</numerusform></translation>
     </message>
     <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Bezig met indexeren van blokken op harde schijf...</translation>
+        <location line="+488"/>
+        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Staking. &lt;br&gt; Uw gewicht wordt  %1 &lt;br&gt; Network gewicht is %2 &lt;br&gt; Verwachte tijd om beloning te verdienen is %3</translation>
     </message>
     <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Bezig met verwerken van blokken op harde schijf...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n blok aan transactiegeschiedenis verwerkt.</numerusform><numerusform>%n blokken aan transactiegeschiedenis verwerkt.</numerusform></translation>
+        <location line="+6"/>
+        <source>Not staking because wallet is locked</source>
+        <translation>Niet staking omdat portemonnee beveiligd is</translation>
     </message>
     <message>
-        <source>%1 behind</source>
-        <translation>%1 achter</translation>
+        <location line="+2"/>
+        <source>Not staking because wallet is offline</source>
+        <translation>Niet staking omdat portemonnee offline is</translation>
     </message>
     <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>Laatst ontvangen blok was %1 geleden gegenereerd.</translation>
+        <location line="+2"/>
+        <source>Not staking because wallet is syncing</source>
+        <translation>Niet staking omdat portemonnee aan het synchroniseren is.</translation>
     </message>
     <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>Transacties na dit moment zullen nu nog niet zichtbaar zijn.</translation>
+        <location line="+2"/>
+        <source>Not staking because you don&apos;t have mature coins</source>
+        <translation>Niet staking omdat je geen mature munten hebt</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Fout</translation>
+        <location line="-812"/>
+        <source>&amp;Dashboard</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning</source>
-        <translation>Waarschuwing</translation>
+        <location line="+6"/>
+        <source>&amp;Receive</source>
+        <translation>&amp;Ontvangen</translation>
     </message>
     <message>
-        <source>Information</source>
-        <translation>Informatie</translation>
+        <location line="+6"/>
+        <source>&amp;Send</source>
+        <translation>&amp;Verzenden</translation>
     </message>
     <message>
+        <location line="+49"/>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>Ontgrendel portemonnee...</translation>
+    </message>
+    <message>
+        <location line="+277"/>
         <source>Up to date</source>
         <translation>Bijgewerkt</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses</source>
-        <translation>Verzendadressen</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>Ontvangstadressen</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>Portemonnee Openen</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>Open een portemonnee</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>Portemonnee Sluiten...</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>Portemonnee Sluiten</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Toon het %1 hulpbericht om een lijst te krijgen met mogelijke Bitcoin commandoregelopties</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>standaard portemonnee</translation>
-    </message>
-    <message>
-        <source>No wallets available</source>
-        <translation>Geen portefeuilles beschikbaar</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Scherm</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>Minimaliseer</translation>
-    </message>
-    <message>
-        <source>Zoom</source>
-        <translation>Zoom</translation>
-    </message>
-    <message>
-        <source>Main Window</source>
-        <translation>Hoofdscherm</translation>
-    </message>
-    <message>
-        <source>%1 client</source>
-        <translation>%1 client</translation>
-    </message>
-    <message>
-        <source>Connecting to peers...</source>
-        <translation>Verbinden met peers...</translation>
-    </message>
-    <message>
+        <location line="+43"/>
         <source>Catching up...</source>
         <translation>Aan het bijwerken...</translation>
     </message>
     <message>
-        <source>Error: %1</source>
-        <translation>Fout: %1</translation>
+        <location line="+113"/>
+        <source>Confirm transaction fee</source>
+        <translation>Bevestig transactie kosten</translation>
     </message>
     <message>
-        <source>Warning: %1</source>
-        <translation>Waarschuwing: %1</translation>
-    </message>
-    <message>
-        <source>Date: %1
-</source>
-        <translation>Datum: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Aantal: %1
-</translation>
-    </message>
-    <message>
-        <source>Wallet: %1
-</source>
-        <translation>Portemonnee: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Type: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Label: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Adres: %1
-</translation>
-    </message>
-    <message>
+        <location line="+27"/>
         <source>Sent transaction</source>
-        <translation>Verstuurde transactie</translation>
+        <translation>Verzonden transactie</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Incoming transaction</source>
         <translation>Binnenkomende transactie</translation>
     </message>
     <message>
-        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD-sleutel voortbrenging is &lt;b&gt;ingeschakeld&lt;/b&gt;</translation>
+        <location line="+1"/>
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</source>
+        <translation>Datum: %1
+Bedrag: %2
+Type: %3
+Adres: %4
+</translation>
     </message>
     <message>
-        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD-sleutel voortbrenging is &lt;b&gt;uitgeschakeld&lt;/b&gt;</translation>
+        <location line="+100"/>
+        <location line="+15"/>
+        <source>URI handling</source>
+        <translation>URI-behandeling</translation>
     </message>
     <message>
-        <source>Private key &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>Prive sleutel &lt;b&gt;uitgeschakeld&lt;/b&gt;</translation>
+        <location line="-15"/>
+        <location line="+15"/>
+        <source>URI can not be parsed! This can be caused by an invalid Estoque address or malformed URI parameters.</source>
+        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig Estoque adres of incorrecte URI parameters.</translation>
     </message>
     <message>
+        <location line="+9"/>
+        <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;gesloten&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout heeft zich voorgedaan. Bitcoin kan niet veilig worden verdergezet en wordt afgesloten.</translation>
+        <location line="+24"/>
+        <source>Backup Wallet</source>
+        <translation>Backup Portemonnee</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Portemonnee bestanden (*.dat)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Backup Failed</source>
+        <translation>Backup mislukt</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>There was an error trying to save the wallet data to the new location.</source>
+        <translation>Er was een fout opgetreden bij het opslaan van de wallet data naar de nieuwe locatie.</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+91"/>
+        <source>%n second(s)</source>
+        <translation><numerusform>%n seconden</numerusform><numerusform>%n seconden</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n minuut</numerusform><numerusform>%n minuten</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location line="-429"/>
+        <location line="+433"/>
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n uur</numerusform><numerusform>%n uur</numerusform></translation>
+    </message>
+    <message>
+        <location line="-456"/>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message numerus="yes">
+        <location line="+27"/>
+        <location line="+433"/>
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dag</numerusform><numerusform>%n dagen</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location line="-429"/>
+        <location line="+6"/>
+        <source>%n week(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message numerus="yes">
+        <location line="+0"/>
+        <source>%n year(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>%1 behind</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Last received block was generated %1 ago.</source>
+        <translation>Laatst ontvangen block was %1 geleden</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Transactions after this will not yet be visible.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Error</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Warning</source>
+        <translation>Waarschuwing</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Information</source>
+        <translation>Informatie</translation>
+    </message>
+    <message>
+        <location line="+69"/>
+        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+324"/>
+        <source>Not staking</source>
+        <translation>Niet aan het staken.</translation>
+    </message>
+    <message>
+        <location filename="../bitcoin.cpp" line="+104"/>
+        <source>A fatal error occurred. Estoque can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout . Estoque kan niet langer veilig doorgaan en sluit af.</translation>
+    </message>
+</context>
+<context>
+    <name>ClientModel</name>
+    <message>
+        <location filename="../clientmodel.cpp" line="+119"/>
+        <source>Network Alert</source>
+        <translation>Netwerkwaarschuwing</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Selection</source>
-        <translation>Munt Selectie</translation>
+        <location filename="../forms/coincontroldialog.ui" line="+14"/>
+        <source>Coin Control</source>
+        <translation>Coin controle opties</translation>
     </message>
     <message>
+        <location line="+31"/>
         <source>Quantity:</source>
         <translation>Kwantiteit</translation>
     </message>
     <message>
+        <location line="+32"/>
         <source>Bytes:</source>
         <translation>Bytes:</translation>
     </message>
     <message>
+        <location line="+48"/>
         <source>Amount:</source>
         <translation>Bedrag:</translation>
     </message>
     <message>
+        <location line="+48"/>
         <source>Fee:</source>
         <translation>Vergoeding:</translation>
     </message>
     <message>
-        <source>Dust:</source>
-        <translation>Stof:</translation>
+        <location line="+35"/>
+        <source>Low Output:</source>
+        <translation>Lage uitvoer:</translation>
     </message>
     <message>
-        <source>After Fee:</source>
-        <translation>Naheffing:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Wisselgeld:</translation>
-    </message>
-    <message>
-        <source>(un)select all</source>
-        <translation>(de)selecteer alles</translation>
-    </message>
-    <message>
-        <source>Tree mode</source>
-        <translation>Boom modus</translation>
-    </message>
-    <message>
-        <source>List mode</source>
-        <translation>Lijst modus</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Bedrag</translation>
-    </message>
-    <message>
-        <source>Received with label</source>
-        <translation>Ontvangen met label</translation>
-    </message>
-    <message>
-        <source>Received with address</source>
-        <translation>Ontvangen met adres</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Confirmations</source>
-        <translation>Bevestigingen</translation>
-    </message>
-    <message>
-        <source>Confirmed</source>
-        <translation>Bevestigd</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopieer adres</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopieer label</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Kopieer transactie-ID</translation>
-    </message>
-    <message>
-        <source>Lock unspent</source>
-        <translation>Blokeer ongebruikte</translation>
-    </message>
-    <message>
-        <source>Unlock unspent</source>
-        <translation>Deblokkeer ongebruikte</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopieer aantal</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Kopieer vergoeding</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Kopieer na vergoeding</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Kopieer bytes</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopieër stof</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Kopieer wijziging</translation>
-    </message>
-    <message>
-        <source>(%1 locked)</source>
-        <translation>(%1 geblokkeerd)</translation>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation>ja</translation>
-    </message>
-    <message>
+        <location filename="../coincontroldialog.cpp" line="+493"/>
         <source>no</source>
         <translation>nee</translation>
     </message>
     <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Dit label wordt rood, als een ontvanger een bedrag van minder dan de huidige dust-drempel gekregen heeft.</translation>
+        <location filename="../forms/coincontroldialog.ui" line="+51"/>
+        <source>After Fee:</source>
+        <translation>Na vergoeding:</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Kan per input +/- %1 satoshi(s)  variëren.</translation>
+        <location line="+35"/>
+        <source>Change:</source>
+        <translation>Wijzigen:</translation>
     </message>
     <message>
+        <location line="+69"/>
+        <source>(un)select all</source>
+        <translation>(de)selecteer alles</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Tree mode</source>
+        <translation>Boom modus</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>List mode</source>
+        <translation>Lijst modus</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Confirmations</source>
+        <translation>Bevestigingen</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Confirmed</source>
+        <translation>Bevestigd</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Priority</source>
+        <translation>Prioriteit</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="-456"/>
+        <source>Copy address</source>
+        <translation>Kopieer adres</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy label</source>
+        <translation>Kopieer label</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+26"/>
+        <source>Copy amount</source>
+        <translation>Kopieer bedrag</translation>
+    </message>
+    <message>
+        <location line="-25"/>
+        <source>Copy transaction ID</source>
+        <translation>Kopieer transactie-ID</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Copy quantity</source>
+        <translation>Kopieer aantal</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Copy fee</source>
+        <translation>Kopieer vergoeding</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy after fee</source>
+        <translation>Kopieer na vergoeding</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy bytes</source>
+        <translation>Kopieer bytes</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy low output</source>
+        <translation>Kopieer lage uitvoer</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy change</source>
+        <translation>Kopieer wijzig</translation>
+    </message>
+    <message>
+        <location line="+423"/>
+        <source>DUST</source>
+        <translation>STOF</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>yes</source>
+        <translation>ja</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>This label turns red, if the transaction size is bigger than 10000 bytes.
+
+ This means a fee of at least %1 per kb is required.
+
+ Can vary +/- 1 Byte per input.</source>
+        <translation>Dit label wordt rood, als de transactie grootte groter is dan 10000 bytes.&lt;br&gt;
+
+Dit betekend een fee van minimaal %1 per kb is noodzakelijk.&lt;br&gt;
+
+Kan varieren van +/- 1 Byte per invulling</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.
+
+ This means a fee of at least %2 is required. 
+
+ Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
+        <translation>Dit label wordt rood, als elke ontvanger ontvangt een bedrag dat kleiner is dan 1%. 
+
+Dit betekent dat een vergoeding van ten minste 2% is vereist. 
+
+Bedragen onder 0.546 keer het minimum vergoeding worden weergegeven als DUST.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This label turns red, if the change is smaller than %1.
+
+ This means a fee of at least %2 is required.</source>
+        <translation>Dit label wordt rood, als de verandering kleiner is dan %1.
+
+Dit betekend dat een fee van %2 is vereist.</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <location line="+58"/>
         <source>(no label)</source>
         <translation>(geen label)</translation>
     </message>
     <message>
+        <location line="-9"/>
         <source>change from %1 (%2)</source>
         <translation>wijzig van %1 (%2)</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>(change)</source>
         <translation>(wijzig)</translation>
     </message>
 </context>
 <context>
-    <name>CreateWalletActivity</name>
-    <message>
-        <source>Creating Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
-        <translation>Aanmaken wallet&lt;b&gt;%1&lt;/b&gt;...</translation>
-    </message>
-    <message>
-        <source>Create wallet failed</source>
-        <translation>Aanmaken wallet mislukt</translation>
-    </message>
-    <message>
-        <source>Create wallet warning</source>
-        <translation>Aanmaken wallet waarschuwing</translation>
-    </message>
-</context>
-<context>
-    <name>CreateWalletDialog</name>
-    <message>
-        <source>Create Wallet</source>
-        <translation>Creëer wallet </translation>
-    </message>
-    <message>
-        <source>Wallet Name</source>
-        <translation>Wallet Naam</translation>
-    </message>
-    <message>
-        <source>Encrypt the wallet. The wallet will be encrypted with a passphrase of your choice.</source>
-        <translation>Versleutel je portemonnee. Je portemonnee zal versleuteld zijn met een wachtwoordzin naar eigen keuze.</translation>
-    </message>
-    <message>
-        <source>Encrypt Wallet</source>
-        <translation>Versleutel portemonnee</translation>
-    </message>
-    <message>
-        <source>Disable Private Keys</source>
-        <translation>Schakel privésleutels uit</translation>
-    </message>
-    <message>
-        <source>Create</source>
-        <translation>Creëer </translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Bewerk adres</translation>
+        <translation>Bewerk Adres</translation>
     </message>
     <message>
+        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>&amp;Label</translation>
     </message>
     <message>
-        <source>The label associated with this address list entry</source>
-        <translation>Het label dat bij dit adres item hoort</translation>
+        <location line="+10"/>
+        <source>The label associated with this address book entry</source>
+        <translation>Het label geassocieerd met deze notitie in het adresboek</translation>
     </message>
     <message>
-        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Het adres dat bij dit adresitem hoort. Dit kan alleen bewerkt worden voor verstuuradressen.</translation>
-    </message>
-    <message>
+        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>&amp;Adres</translation>
     </message>
     <message>
-        <source>New sending address</source>
-        <translation>Nieuw verzendadres</translation>
+        <location line="+10"/>
+        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
+        <translation>Het adres geassocieerd met deze notitie in het adresboek. Dit kan enkel aangepast worden bij verzend-adressen.</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="+21"/>
+        <source>New receiving address</source>
+        <translation>Nieuw ontvangstadres</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>New sending address</source>
+        <translation>Nieuw adres om naar te verzenden</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Edit receiving address</source>
         <translation>Bewerk ontvangstadres</translation>
     </message>
     <message>
+        <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Bewerk verzendadres</translation>
+        <translation>Bewerk adres om naar te verzenden</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Het opgegeven adres "%1" is een ongeldig Bitcoinadres.</translation>
+        <location line="+76"/>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; bestaat al in uw adresboek.</translation>
     </message>
     <message>
-        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
-        <translation>Adres "%1" bestaat al als ontvang adres met label "%2" en kan dus niet toegevoegd worden als verzend adres.</translation>
+        <location line="-5"/>
+        <source>The entered address &quot;%1&quot; is not a valid Estoque address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig Estoque adres.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book with label "%2".</source>
-        <translation>Het opgegeven adres "%1" bestaat al in uw adresboek onder label "%2".</translation>
-    </message>
-    <message>
+        <location line="+10"/>
         <source>Could not unlock wallet.</source>
         <translation>Kon de portemonnee niet openen.</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>New key generation failed.</source>
         <translation>Genereren nieuwe sleutel mislukt.</translation>
     </message>
 </context>
 <context>
-    <name>FreespaceChecker</name>
+    <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <source>A new data directory will be created.</source>
-        <translation>Een nieuwe gegevensmap wordt aangemaakt.</translation>
+        <location filename="../guiutil.cpp" line="+426"/>
+        <location line="+12"/>
+        <source>Estoque-Qt</source>
+        <translation>Estoque-Qt</translation>
     </message>
     <message>
-        <source>name</source>
-        <translation>naam</translation>
-    </message>
-    <message>
-        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Map bestaat al. Voeg %1 toe als u van plan bent hier een nieuwe map aan te maken.</translation>
-    </message>
-    <message>
-        <source>Path already exists, and is not a directory.</source>
-        <translation>Pad bestaat al en is geen map.</translation>
-    </message>
-    <message>
-        <source>Cannot create data directory here.</source>
-        <translation>Kan hier geen gegevensmap aanmaken.</translation>
-    </message>
-</context>
-<context>
-    <name>HelpMessageDialog</name>
-    <message>
+        <location line="-12"/>
         <source>version</source>
         <translation>versie</translation>
     </message>
     <message>
-        <source>(%1-bit)</source>
-        <translation>(%1-bit)</translation>
+        <location line="+2"/>
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
     </message>
     <message>
-        <source>About %1</source>
-        <translation>Over %1</translation>
+        <location line="+1"/>
+        <source>command-line options</source>
+        <translation>Commandoregel-opties</translation>
     </message>
     <message>
-        <source>Command-line options</source>
-        <translation>Opdrachtregelopties</translation>
-    </message>
-</context>
-<context>
-    <name>Intro</name>
-    <message>
-        <source>Welcome</source>
-        <translation>Welkom</translation>
+        <location line="+4"/>
+        <source>UI options</source>
+        <translation>Gebruikerinterface-opties</translation>
     </message>
     <message>
-        <source>Welcome to %1.</source>
-        <translation>Welkom bij %1.</translation>
+        <location line="+1"/>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation>Stel taal in, bijvoorbeeld &quot;de_DE&quot; (standaard: systeeminstellingen)</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar %1 de data moet opslaan.</translation>
+        <location line="+1"/>
+        <source>Start minimized</source>
+        <translation>Geminimaliseerd starten</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
-        <translation>Als u op OK klikt, dan zal %1 beginnen met downloaden en verwerken van de volledige %4 blokketen (%2GB) startend met de eerste transacties in %3 toen %4 initeel werd gestart.</translation>
-    </message>
-    <message>
-        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
-        <translation>Deze initiële synchronisatie is heel veeleisend, en kan hardware problemen met uw computer blootleggen die voorheen onopgemerkt bleven. Elke keer dat %1 gebruikt word, zal verdergegaan worden waar gebleven is.</translation>
-    </message>
-    <message>
-        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
-        <translation>Als u gekozen heeft om de blokketenopslag te beperken (pruning), dan moet de historische data nog steeds gedownload en verwerkt worden, maar zal verwijderd worden naderhand om schijf gebruik zo laag mogelijk te houden.</translation>
-    </message>
-    <message>
-        <source>Use the default data directory</source>
-        <translation>Gebruik de standaard gegevensmap</translation>
-    </message>
-    <message>
-        <source>Use a custom data directory:</source>
-        <translation>Gebruik een aangepaste gegevensmap:</translation>
-    </message>
-    <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Tenminste %1 GB aan data zal worden opgeslagen in deze map, en dit zal naarmate de tijd voortschrijdt groeien.</translation>
-    </message>
-    <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Gemiddeld %1 GB aan data zal worden opgeslagen in deze map.</translation>
-    </message>
-    <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 zal een kopie van de blokketen van Bitcoin downloaden en opslaan.</translation>
-    </message>
-    <message>
-        <source>The wallet will also be stored in this directory.</source>
-        <translation>De portemonnee wordt ook in deze map opgeslagen.</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Fout: De gespecificeerde map "%1" kan niet worden gecreëerd.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Fout</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB aan vrije opslagruimte beschikbaar</numerusform><numerusform>%n GB aan vrije opslagruimte beschikbaar</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(van %n GB nodig)</numerusform><numerusform>(van %n GB nodig)</numerusform></translation>
-    </message>
-    </context>
-<context>
-    <name>ModalOverlay</name>
-    <message>
-        <source>Form</source>
-        <translation>Vorm</translation>
-    </message>
-    <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de portemonnee is daarom mogelijk niet correct. Deze informatie is correct van zodra de synchronisatie met het Bitcoin-netwerk werd voltooid, zoals onderaan beschreven.</translation>
-    </message>
-    <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Poging om bitcoins te besteden die door "nog niet weergegeven" transacties worden beïnvloed, worden niet door het netwerk geaccepteerd.</translation>
-    </message>
-    <message>
-        <source>Number of blocks left</source>
-        <translation>Aantal blokken resterend.</translation>
-    </message>
-    <message>
-        <source>Unknown...</source>
-        <translation>Onbekend...</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Tijd laatste blok</translation>
-    </message>
-    <message>
-        <source>Progress</source>
-        <translation>Vooruitgang</translation>
-    </message>
-    <message>
-        <source>Progress increase per hour</source>
-        <translation>Vooruitgang per uur</translation>
-    </message>
-    <message>
-        <source>calculating...</source>
-        <translation>Berekenen...</translation>
-    </message>
-    <message>
-        <source>Estimated time left until synced</source>
-        <translation>Geschatte tijd tot volledig synchroon</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Verbergen</translation>
-    </message>
-    <message>
-        <source>Unknown. Syncing Headers (%1, %2%)...</source>
-        <translation>Onbekend. Kopteksten synchroniseren (%1, %2%)...</translation>
-    </message>
-</context>
-<context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Open URI</source>
-        <translation>Open URI</translation>
-    </message>
-    <message>
-        <source>Open payment request from URI or file</source>
-        <translation>Open betalingsverzoek via URI of bestand</translation>
-    </message>
-    <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
-    </message>
-    <message>
-        <source>Select payment request file</source>
-        <translation>Selecteer betalingsverzoek bestand</translation>
-    </message>
-    <message>
-        <source>Select payment request file to open</source>
-        <translation>Selecteer betalingsverzoekbestand om te openen</translation>
-    </message>
-</context>
-<context>
-    <name>OpenWalletActivity</name>
-    <message>
-        <source>Open wallet failed</source>
-        <translation>Openen van portemonnee is mislukt</translation>
-    </message>
-    <message>
-        <source>Open wallet warning</source>
-        <translation>Openen van portemonnee heeft een waarschuwing</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>standaard portemonnee</translation>
-    </message>
-    <message>
-        <source>Opening Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
-        <translation>Open Portemonnee&lt;b&gt;%1&lt;/b&gt;...</translation>
+        <location line="+1"/>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Laat laadscherm zien bij het opstarten. (standaard: 1)</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Opties</translation>
     </message>
     <message>
+        <location line="+16"/>
         <source>&amp;Main</source>
         <translation>&amp;Algemeen</translation>
     </message>
     <message>
-        <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Start %1 automatisch na inloggen in het systeem.</translation>
+        <location line="+6"/>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
+        <translation>Optioneel transactiekosten per kB dat helpt ervoor zorgen dat uw transacties worden snel verwerkt. De meeste transacties zijn 1 kB. Fee 0.01 aanbevolen.</translation>
     </message>
     <message>
-        <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Start %1 bij het inloggen op het systeem</translation>
+        <location line="+15"/>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Betaal &amp;transactiekosten</translation>
     </message>
     <message>
-        <source>Size of &amp;database cache</source>
-        <translation>Grootte van de &amp;databasecache</translation>
+        <location line="+31"/>
+        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <translation>Gereserveerde hoeveelheid doet niet mee in staking en is daarom altijd uitgeefbaar.</translation>
     </message>
     <message>
-        <source>Number of script &amp;verification threads</source>
-        <translation>Aantal threads voor &amp;scriptverificatie</translation>
+        <location line="+15"/>
+        <source>Reserve</source>
+        <translation>Gereserveerd</translation>
     </message>
     <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP-adres van de proxy (bijv. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <location line="+31"/>
+        <source>Automatically start Estoque after logging in to the system.</source>
+        <translation>Automatisch starten van Estoque na inloggen van het systeem.</translation>
     </message>
     <message>
-        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Toont aan of de aangeleverde standaard SOCKS5 proxy gebruikt word om peers te bereiken via dit netwerktype.</translation>
+        <location line="+3"/>
+        <source>&amp;Start Estoque on system login</source>
+        <translation>&amp;Start Estoque bij systeem aanmelding</translation>
     </message>
     <message>
-        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Gebruik aparte SOCKS&amp;5-proxy om peers te bereiken via verborgen Tor-diensten:</translation>
-    </message>
-    <message>
-        <source>Hide the icon from the system tray.</source>
-        <translation>Verberg het icoon van de systeembalk.</translation>
-    </message>
-    <message>
-        <source>&amp;Hide tray icon</source>
-        <translation>&amp;Verberg systeembalkicoon</translation>
-    </message>
-    <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimaliseren in plaats van de applicatie af te sluiten wanneer het venster is afgesloten. Als deze optie is ingeschakeld, zal de toepassing pas worden afgesloten na het selecteren van Exit in het menu.</translation>
-    </message>
-    <message>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL's van derden (bijvoorbeeld blokexplorer) die in de transacties tab verschijnen als contextmenuelementen. %s in de URL is vervangen door transactiehash. Verscheidene URL's zijn gescheiden door een verticale streep |.  </translation>
-    </message>
-    <message>
-        <source>Open the %1 configuration file from the working directory.</source>
-        <translation>Open het %1 configuratiebestand van de werkmap.</translation>
-    </message>
-    <message>
-        <source>Open Configuration File</source>
-        <translation>Open configuratiebestand</translation>
-    </message>
-    <message>
-        <source>Reset all client options to default.</source>
-        <translation>Reset alle clientopties naar de standaardinstellingen.</translation>
-    </message>
-    <message>
-        <source>&amp;Reset Options</source>
-        <translation>&amp;Reset opties</translation>
-    </message>
-    <message>
+        <location line="+21"/>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>Disables some advanced features but all blocks will still be fully validated. Reverting this setting requires re-downloading the entire blockchain. Actual disk usage may be somewhat higher.</source>
-        <translation>Geavanceerde functionaliteit wordt uitgeschakeld maar alle blokken worden nog steed volledig gevalideerd. Om deze instelling weer ongedaan te maken, moet de volledige blockchain opnieuw gedownload worden. Schijfgebruik kan iets toenemen.</translation>
+        <location line="+6"/>
+        <source>Automatically open the Estoque client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>De Estoque client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
     </message>
     <message>
-        <source>Prune &amp;block storage to</source>
-        <translation>Prune &amp; block opslag op</translation>
-    </message>
-    <message>
-        <source>GB</source>
-        <translation>GB</translation>
-    </message>
-    <message>
-        <source>Reverting this setting requires re-downloading the entire blockchain.</source>
-        <translation>Deze instelling terugzetten vereist het opnieuw downloaden van de gehele blockchain.</translation>
-    </message>
-    <message>
-        <source>MiB</source>
-        <translation>MiB</translation>
-    </message>
-    <message>
-        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = laat dit aantal kernen vrij)</translation>
-    </message>
-    <message>
-        <source>W&amp;allet</source>
-        <translation>W&amp;allet</translation>
-    </message>
-    <message>
-        <source>Expert</source>
-        <translation>Expert</translation>
-    </message>
-    <message>
-        <source>Enable coin &amp;control features</source>
-        <translation>Coin &amp;control activeren</translation>
-    </message>
-    <message>
-        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Indien het uitgeven van onbevestigd wisselgeld uitgeschakeld wordt dan kan het wisselgeld van een transactie niet worden gebruikt totdat de transactie ten minste een bevestiging heeft. Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
-    </message>
-    <message>
-        <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Spendeer onbevestigd wisselgeld</translation>
-    </message>
-    <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Bitcoinpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
-    </message>
-    <message>
+        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Portmapping via &amp;UPnP</translation>
     </message>
     <message>
-        <source>Accept connections from outside.</source>
-        <translation>Accepteer verbindingen van buiten.</translation>
-    </message>
-    <message>
-        <source>Allow incomin&amp;g connections</source>
-        <translation>Sta inkomende verbindingen toe</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Verbind met het Bitcoinnetwerk via een SOCKS5 proxy.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Verbind via een SOCKS5-proxy (standaardproxy):</translation>
-    </message>
-    <message>
+        <location line="+19"/>
         <source>Proxy &amp;IP:</source>
         <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
+        <location line="+19"/>
+        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
+        <translation>IP Adres van de proxy (bijv. 127.0.0.1)</translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>&amp;Port:</source>
         <translation>&amp;Poort:</translation>
     </message>
     <message>
+        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Poort van de proxy (bijv. 9050)</translation>
     </message>
     <message>
-        <source>Used for reaching peers via:</source>
-        <translation>Gebruikt om peers te bereiken via:</translation>
+        <location line="-57"/>
+        <source>Connect to the Estoque network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
+        <location line="+3"/>
+        <source>&amp;Connect through SOCKS5 proxy:</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
-    </message>
-    <message>
-        <source>Tor</source>
-        <translation>Tor</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Maak verbinding met Bitcoinnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
-    </message>
-    <message>
+        <location line="+90"/>
         <source>&amp;Window</source>
         <translation>&amp;Scherm</translation>
     </message>
     <message>
+        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Laat alleen een systeemvakicoon zien wanneer het venster geminimaliseerd is</translation>
+        <translation>Laat alleen een systeemvak-icoon zien wanneer het venster geminimaliseerd is</translation>
     </message>
     <message>
+        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;Minimaliseer naar het systeemvak in plaats van de taakbalk</translation>
     </message>
     <message>
-        <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimaliseer bij sluiten van het venster</translation>
+        <location line="+7"/>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Minimaliseer het venster in de plaats van de applicatie af te sluiten als het venster gesloten wordt. Wanneer deze optie aan staan, kan de applicatie alleen worden afgesloten door Afsluiten te kiezen in het menu.</translation>
     </message>
     <message>
+        <location line="+3"/>
+        <source>M&amp;inimize on close</source>
+        <translation>Minimaliseer bij sluiten van het &amp;venster</translation>
+    </message>
+    <message>
+        <location line="+21"/>
         <source>&amp;Display</source>
         <translation>&amp;Interface</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>Taal &amp;gebruikersinterface:</translation>
+        <translation>Taal &amp;Gebruikersinterface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat %1 herstart wordt.</translation>
+        <location line="+13"/>
+        <source>The user interface language can be set here. This setting will take effect after restarting Estoque.</source>
+        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na Estoque opnieuw op te starten.</translation>
     </message>
     <message>
+        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Eenheid om bedrag in te tonen:</translation>
     </message>
     <message>
+        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Kies de standaardonderverdelingseenheid om weer te geven in uw programma, en voor het versturen van munten</translation>
+        <translation>Kies de standaard onderverdelingseenheid om weer te geven in uw programma, en voor het versturen van munten</translation>
     </message>
     <message>
+        <location line="+9"/>
         <source>Whether to show coin control features or not.</source>
         <translation>Munt controle functies weergeven of niet.</translation>
     </message>
     <message>
-        <source>&amp;Third party transaction URLs</source>
-        <translation>Transactie-URL's van &amp;derden</translation>
+        <location line="+3"/>
+        <source>Display coin &amp;control features (experts only!)</source>
+        <translation>Laat coin &amp; control functies zien (enkel voor gevorderden!)</translation>
     </message>
     <message>
-        <source>Options set in this dialog are overridden by the command line or in the configuration file:</source>
-        <translation>Gekozen opties in dit dialoogvenster worden overschreven door de command line of in het configuratiebestand:</translation>
+        <location line="+7"/>
+        <source>Use black visual theme (requires restart)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location line="+71"/>
         <source>&amp;OK</source>
-        <translation>&amp;Oké</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
+        <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Annuleren</translation>
+        <translation>Ann&amp;uleren</translation>
     </message>
     <message>
+        <location line="+10"/>
+        <source>&amp;Apply</source>
+        <translation>&amp;Toepassen</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="+47"/>
         <source>default</source>
         <translation>standaard</translation>
     </message>
     <message>
-        <source>none</source>
-        <translation>geen</translation>
+        <location line="+147"/>
+        <location line="+9"/>
+        <source>Warning</source>
+        <translation>Waarschuwing</translation>
     </message>
     <message>
-        <source>Confirm options reset</source>
-        <translation>Bevestig reset opties</translation>
+        <location line="-9"/>
+        <location line="+9"/>
+        <source>This setting will take effect after restarting Estoque.</source>
+        <translation>Deze instelling word toegepast na een restart van Estoque.</translation>
     </message>
     <message>
-        <source>Client restart required to activate changes.</source>
-        <translation>Herstart van de client is vereist om veranderingen door te voeren.</translation>
-    </message>
-    <message>
-        <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Applicatie zal worden afgesloten. Wilt u doorgaan?</translation>
-    </message>
-    <message>
-        <source>Configuration options</source>
-        <translation>Configuratieopties</translation>
-    </message>
-    <message>
-        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
-        <translation>Het configuratiebestand wordt gebruikt om geavanceerde gebruikersopties te specificeren welke de GUI instellingen overschrijd. Daarnaast, zullen alle command-line opties dit configuratiebestand overschrijven.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Fout</translation>
-    </message>
-    <message>
-        <source>The configuration file could not be opened.</source>
-        <translation>Het configuratiebestand kon niet worden geopend.</translation>
-    </message>
-    <message>
-        <source>This change would require a client restart.</source>
-        <translation>Om dit aan te passen moet de client opnieuw gestart worden.</translation>
-    </message>
-    <message>
+        <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Het opgegeven proxyadres is ongeldig.</translation>
     </message>
@@ -1358,2414 +1250,1991 @@
 <context>
     <name>OverviewPage</name>
     <message>
+        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <location line="+46"/>
+        <location line="+247"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Estoque network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het Estoque netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
-        <source>Watch-only:</source>
-        <translation>Alleen-bekijkbaar:</translation>
+        <location line="-173"/>
+        <source>Stake:</source>
+        <translation>Stake:</translation>
     </message>
     <message>
-        <source>Available:</source>
-        <translation>Beschikbaar:</translation>
+        <location line="+32"/>
+        <source>Unconfirmed:</source>
+        <translation>Onbevestigd:</translation>
     </message>
     <message>
+        <location line="-113"/>
+        <source>Wallet</source>
+        <translation>Portemonnee</translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>Spendable:</source>
+        <translation>Uitgeefbaar:</translation>
+    </message>
+    <message>
+        <location line="+16"/>
         <source>Your current spendable balance</source>
         <translation>Uw beschikbare saldo</translation>
     </message>
     <message>
-        <source>Pending:</source>
-        <translation>Afwachtend:</translation>
-    </message>
-    <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>De som van de transacties die nog bevestigd moeten worden, en nog niet meetellen in uw beschikbare saldo</translation>
-    </message>
-    <message>
+        <location line="+80"/>
         <source>Immature:</source>
         <translation>Immatuur:</translation>
     </message>
     <message>
+        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
         <translation>Gedolven saldo dat nog niet tot wasdom is gekomen</translation>
     </message>
     <message>
-        <source>Balances</source>
-        <translation>Saldi</translation>
-    </message>
-    <message>
+        <location line="+23"/>
         <source>Total:</source>
         <translation>Totaal:</translation>
     </message>
     <message>
+        <location line="+16"/>
         <source>Your current total balance</source>
         <translation>Uw totale saldo</translation>
     </message>
     <message>
-        <source>Your current balance in watch-only addresses</source>
-        <translation>Uw huidige balans in alleen-bekijkbare adressen</translation>
+        <location line="+50"/>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Recente transacties&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Spendable:</source>
-        <translation>Besteedbaar:</translation>
+        <location line="-118"/>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
+        <translation>Totaal van de transacties die nog moeten worden bevestigd, en nog niet mee voor het huidige balans</translation>
     </message>
     <message>
-        <source>Recent transactions</source>
-        <translation>Recente transacties</translation>
+        <location line="-32"/>
+        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <translation>Totaal aantal munten dat was staked, en nog niet telt voor huidige balans.</translation>
     </message>
     <message>
-        <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Onbevestigde transacties naar alleen-bekijkbare adressen</translation>
-    </message>
-    <message>
-        <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Ontgonnen saldo dat nog niet tot wasdom is gekomen</translation>
-    </message>
-    <message>
-        <source>Current total balance in watch-only addresses</source>
-        <translation>Huidige balans in alleen-bekijkbare adressen.</translation>
+        <location filename="../overviewpage.cpp" line="+116"/>
+        <location line="+1"/>
+        <source>out of sync</source>
+        <translation>niet gesynchroniseerd</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
-        <source>Payment request error</source>
-        <translation>Fout bij betalingsverzoek</translation>
-    </message>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan bitcoin niet starten: click-to-pay handler</translation>
-    </message>
-    <message>
-        <source>URI handling</source>
-        <translation>URI-behandeling</translation>
-    </message>
-    <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>'bitcoin://' is niet een geldige URI. Gebruik 'bitcoin:' in plaats daarvan.</translation>
-    </message>
-    <message>
-        <source>You are using a BIP70 URL which will be unsupported in the future.</source>
-        <translation>Je gebruikt een BIP70 URL wat in de toekomst niet langer ondersteund zal worden.</translation>
-    </message>
-    <message>
-        <source>Payment request fetch URL is invalid: %1</source>
-        <translation>URL om betalingsverzoek te verkrijgen is ongeldig: %1</translation>
-    </message>
-    <message>
-        <source>Cannot process payment request because BIP70 support was not compiled in.</source>
-        <translation>Kan het betalingsverzoek niet verwerken omdat BIP70 ondersteuning niet werd gecompileerd.</translation>
-    </message>
-    <message>
-        <source>Invalid payment address %1</source>
-        <translation>Ongeldig betalingsadres %1</translation>
-    </message>
-    <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Bitcoin adres of misvormde URI parameters.</translation>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation>Betalingsverzoek bestandsafhandeling</translation>
-    </message>
-    <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Betalingsverzoekbestand kan niet gelezen of verwerkt worden! Dit kan veroorzaakt worden door een ongeldig betalingsverzoekbestand.</translation>
-    </message>
-    <message>
-        <source>Payment request rejected</source>
-        <translation>Betalingsverzoek geweigerd</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Betalingsaanvraagnetwerk komt niet overeen met klantennetwerk.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Betalingsverzoek verlopen.</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>Betalingsaanvraag is niet geïnitialiseerd.</translation>
-    </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Niet-geverifieerde betalingsverzoeken naar aangepaste betalingsscripts worden niet ondersteund.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Ongeldig betalingsverzoek.</translation>
-    </message>
-    <message>
-        <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Het gevraagde betalingsbedrag van %1 is te weinig (beschouwd als stof).</translation>
-    </message>
-    <message>
-        <source>Refund from %1</source>
-        <translation>Restitutie van %1</translation>
-    </message>
-    <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Betalingsverzoek %1 is te groot (%2 bytes, toegestaan ​​%3 bytes).</translation>
-    </message>
-    <message>
-        <source>Error communicating with %1: %2</source>
-        <translation>Fout bij communiceren met %1: %2</translation>
-    </message>
-    <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>Betalingsverzoek kan niet worden verwerkt!</translation>
-    </message>
-    <message>
-        <source>Bad response from server %1</source>
-        <translation>Ongeldige respons van server %1</translation>
-    </message>
-    <message>
-        <source>Network request error</source>
-        <translation>Fout bij netwerkverzoek</translation>
-    </message>
-    <message>
-        <source>Payment acknowledged</source>
-        <translation>Betaling bevestigd</translation>
+        <location filename="../paymentserver.cpp" line="+107"/>
+        <source>Cannot start estoque: click-to-pay handler</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
-    <name>PeerTableModel</name>
+    <name>QRCodeDialog</name>
     <message>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
-        <source>Node/Service</source>
-        <translation>Node/Dienst</translation>
+        <location filename="../forms/qrcodedialog.ui" line="+14"/>
+        <source>QR Code Dialog</source>
+        <translation>QR Code Scherm</translation>
     </message>
     <message>
-        <source>NodeId</source>
-        <translation>Node ID</translation>
+        <location line="+59"/>
+        <source>Request Payment</source>
+        <translation>Vraag betaling</translation>
     </message>
     <message>
-        <source>Ping</source>
-        <translation>Ping</translation>
+        <location line="+56"/>
+        <source>Amount:</source>
+        <translation>Hoeveelheid:</translation>
     </message>
     <message>
-        <source>Sent</source>
-        <translation>Verstuurd</translation>
+        <location line="-44"/>
+        <source>Label:</source>
+        <translation>Label:</translation>
     </message>
     <message>
-        <source>Received</source>
-        <translation>Ontvangen</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Amount</source>
-        <translation>Bedrag</translation>
+        <location line="+19"/>
+        <source>Message:</source>
+        <translation>Bericht:</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Voer een Bitcoinadres in (bijv. %1)</translation>
+        <location line="+71"/>
+        <source>&amp;Save As...</source>
+        <translation>&amp;Opslaan als...</translation>
     </message>
     <message>
-        <source>%1 d</source>
-        <translation>%1 d</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 uur</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Geen</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>N.v.t.</translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n seconde</numerusform><numerusform>%n seconden</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n minuut</numerusform><numerusform>%n minuten</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n uur</numerusform><numerusform>%n uren</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dag</numerusform><numerusform>%n dagen</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n week</numerusform><numerusform>%n weken</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 en %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n jaar</numerusform><numerusform>%n jaren</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 Kb</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 Gb</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Fout: Opgegeven gegevensmap "%1" bestaat niet.</translation>
-    </message>
-    <message>
-        <source>Error: Cannot parse configuration file: %1.</source>
-        <translation>Fout: Kan niet het configuratie bestand parsen: %1.</translation>
-    </message>
-    <message>
-        <source>Error: %1</source>
-        <translation>Fout: %1</translation>
-    </message>
-    <message>
-        <source>%1 didn't yet exit safely...</source>
-        <translation>%1 sloot nog niet veilig af...</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>onbekend</translation>
-    </message>
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Sla afbeelding op...</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation>&amp;Afbeelding kopiëren</translation>
-    </message>
-    <message>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulterende URI te lang, probeer de tekst korter te maken voor het label/bericht.</translation>
-    </message>
-    <message>
+        <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
         <translation>Fout tijdens encoderen URI in QR-code</translation>
     </message>
     <message>
-        <source>QR code support not available.</source>
-        <translation>QR code hulp niet beschikbaar</translation>
+        <location line="+40"/>
+        <source>The entered amount is invalid, please check.</source>
+        <translation>De ingevoerde hoeveel is ongeldig, controleer aub.</translation>
     </message>
     <message>
+        <location line="+23"/>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Resulterende URI te lang, probeer de tekst korter te maken voor het label/bericht.</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Save QR Code</source>
-        <translation>Sla QR-code op</translation>
+        <translation>Sla QR Code op.</translation>
     </message>
     <message>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG afbeelding (*.png)</translation>
+        <location line="+0"/>
+        <source>PNG Images (*.png)</source>
+        <translation>PNG Afbeeldingen (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="+46"/>
+        <source>Client name</source>
+        <translation>Clientnaam</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <location line="+23"/>
+        <location line="+26"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+36"/>
+        <location line="+53"/>
+        <location line="+23"/>
         <source>N/A</source>
         <translation>N.v.t.</translation>
     </message>
     <message>
+        <location line="-194"/>
         <source>Client version</source>
         <translation>Clientversie</translation>
     </message>
     <message>
+        <location line="-45"/>
         <source>&amp;Information</source>
         <translation>&amp;Informatie</translation>
     </message>
     <message>
-        <source>Debug window</source>
-        <translation>Debug venster</translation>
+        <location line="+68"/>
+        <source>Using OpenSSL version</source>
+        <translation>Gebruikt OpenSSL versie</translation>
     </message>
     <message>
-        <source>General</source>
-        <translation>Algemeen</translation>
-    </message>
-    <message>
-        <source>Using BerkeleyDB version</source>
-        <translation>Gebruikt BerkeleyDB versie</translation>
-    </message>
-    <message>
-        <source>Datadir</source>
-        <translation>Gegevensmap</translation>
-    </message>
-    <message>
-        <source>To specify a non-default location of the data directory use the '%1' option.</source>
-        <translation>Om een niet-standaard locatie in te stellen voor de gegevensmap, gebruik de '%1' optie.</translation>
-    </message>
-    <message>
-        <source>Blocksdir</source>
-        <translation>Blocksdir</translation>
-    </message>
-    <message>
-        <source>To specify a non-default location of the blocks directory use the '%1' option.</source>
-        <translation>Om een niet-standaard locatie in te stellen voor de blocks directory, gebruik de '%1' optie.</translation>
-    </message>
-    <message>
+        <location line="+49"/>
         <source>Startup time</source>
         <translation>Opstarttijd</translation>
     </message>
     <message>
+        <location line="+29"/>
         <source>Network</source>
         <translation>Netwerk</translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>Naam</translation>
-    </message>
-    <message>
+        <location line="+7"/>
         <source>Number of connections</source>
         <translation>Aantal connecties</translation>
     </message>
     <message>
+        <location line="+23"/>
+        <source>On testnet</source>
+        <translation>Op testnetwerk</translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Block chain</source>
         <translation>Blokketen</translation>
     </message>
     <message>
+        <location line="+7"/>
         <source>Current number of blocks</source>
         <translation>Huidig aantal blokken</translation>
     </message>
     <message>
-        <source>Memory Pool</source>
-        <translation>Geheugenpoel</translation>
+        <location line="+197"/>
+        <source>&amp;Network Traffic</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Current number of transactions</source>
-        <translation>Huidig aantal transacties</translation>
+        <location line="+52"/>
+        <source>&amp;Clear</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Memory usage</source>
-        <translation>Geheugengebruik</translation>
+        <location line="+13"/>
+        <source>Totals</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Wallet: </source>
-        <translation>Portemonnee:</translation>
+        <location line="+64"/>
+        <location filename="../rpcconsole.cpp" line="+352"/>
+        <source>In:</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>(none)</source>
-        <translation>(geen)</translation>
+        <location line="+80"/>
+        <location filename="../rpcconsole.cpp" line="+1"/>
+        <source>Out:</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Reset</source>
-        <translation>&amp;Reset</translation>
-    </message>
-    <message>
-        <source>Received</source>
-        <translation>Ontvangen</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Verstuurd</translation>
-    </message>
-    <message>
-        <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
-    </message>
-    <message>
-        <source>Banned peers</source>
-        <translation>Gebande peers</translation>
-    </message>
-    <message>
-        <source>Select a peer to view detailed information.</source>
-        <translation>Selecteer een peer om gedetailleerde informatie te bekijken.</translation>
-    </message>
-    <message>
-        <source>Whitelisted</source>
-        <translation>Toegestaan</translation>
-    </message>
-    <message>
-        <source>Direction</source>
-        <translation>Directie</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Versie</translation>
-    </message>
-    <message>
-        <source>Starting Block</source>
-        <translation>Start Blok</translation>
-    </message>
-    <message>
-        <source>Synced Headers</source>
-        <translation>Gesynchroniseerde headers</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>Gesynchroniseerde blokken</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
-        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het %1 debug-logbestand van de huidige gegevensmap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
-    </message>
-    <message>
-        <source>Decrease font size</source>
-        <translation>Verklein lettergrootte</translation>
-    </message>
-    <message>
-        <source>Increase font size</source>
-        <translation>Vergroot lettergrootte</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Diensten</translation>
-    </message>
-    <message>
-        <source>Ban Score</source>
-        <translation>Ban score</translation>
-    </message>
-    <message>
-        <source>Connection Time</source>
-        <translation>Connectie tijd</translation>
-    </message>
-    <message>
-        <source>Last Send</source>
-        <translation>Laatst verstuurd</translation>
-    </message>
-    <message>
-        <source>Last Receive</source>
-        <translation>Laatst ontvangen</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Ping Tijd</translation>
-    </message>
-    <message>
-        <source>The duration of a currently outstanding ping.</source>
-        <translation>De tijdsduur van een op het moment openstaande ping.</translation>
-    </message>
-    <message>
-        <source>Ping Wait</source>
-        <translation>Pingwachttijd</translation>
-    </message>
-    <message>
-        <source>Min Ping</source>
-        <translation>Min Ping</translation>
-    </message>
-    <message>
-        <source>Time Offset</source>
-        <translation>Tijdcompensatie</translation>
-    </message>
-    <message>
+        <location line="-383"/>
         <source>Last block time</source>
         <translation>Tijd laatste blok</translation>
     </message>
     <message>
+        <location line="+52"/>
         <source>&amp;Open</source>
         <translation>&amp;Open</translation>
     </message>
     <message>
+        <location line="+16"/>
+        <source>Command-line options</source>
+        <translation>Commandoregel-opties</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Show the Estoque-Qt help message to get a list with possible Estoque command-line options.</source>
+        <translation>Laat het Estoque-QT help bericht zien om een lijst te krijgen met mogelijke Estoque command-regel opties.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Show</source>
+        <translation>&amp;Show</translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>&amp;Console</source>
         <translation>&amp;Console</translation>
     </message>
     <message>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Netwerkverkeer</translation>
+        <location line="-237"/>
+        <source>Build date</source>
+        <translation>Bouwdatum</translation>
     </message>
     <message>
-        <source>Totals</source>
-        <translation>Totalen</translation>
+        <location line="-104"/>
+        <source>Estoque - Debug window</source>
+        <translation>Estoque - Debugscherm</translation>
     </message>
     <message>
-        <source>In:</source>
-        <translation>In:</translation>
+        <location line="+25"/>
+        <source>Estoque Core</source>
+        <translation>Estoque Kern</translation>
     </message>
     <message>
-        <source>Out:</source>
-        <translation>Uit:</translation>
-    </message>
-    <message>
+        <location line="+256"/>
         <source>Debug log file</source>
-        <translation>Debuglogbestand</translation>
+        <translation>Debug-logbestand</translation>
     </message>
     <message>
+        <location line="+7"/>
+        <source>Open the Estoque debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Estoque debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
+    </message>
+    <message>
+        <location line="+102"/>
         <source>Clear console</source>
         <translation>Maak console leeg</translation>
     </message>
     <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;uur</translation>
+        <location filename="../rpcconsole.cpp" line="-28"/>
+        <source>Welcome to the Estoque RPC console.</source>
+        <translation>Welkom bij de Estoque RPC console.</translation>
     </message>
     <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;dag</translation>
+        <location line="+1"/>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Gebruik de pijltjestoetsen om door de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm leeg te maken.</translation>
     </message>
     <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;week</translation>
+        <location line="+1"/>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht van de beschikbare commando&apos;s.</translation>
     </message>
     <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;jaar</translation>
+        <location line="+134"/>
+        <source>%1 B</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Disconnect</source>
-        <translation>&amp;Verbreek verbinding</translation>
+        <location line="+2"/>
+        <source>%1 KB</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Ban for</source>
-        <translation>Ban Node voor</translation>
+        <location line="+2"/>
+        <source>%1 MB</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Unban</source>
-        <translation>&amp;Maak ban voor node ongedaan</translation>
+        <location line="+2"/>
+        <source>%1 GB</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Welcome to the %1 RPC console.</source>
-        <translation>Welkom bij de %1 RPC-console.</translation>
+        <location line="+7"/>
+        <source>%1 m</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation>Gebruik pijltjes omhoog en omlaag om door de geschiedenis te navigeren en %1 om het scherm te wissen.</translation>
+        <location line="+5"/>
+        <source>%1 h</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Type %1 for an overview of available commands.</source>
-        <translation>Typ %1  voor een overzicht van de beschikbare commando's.</translation>
-    </message>
-    <message>
-        <source>For more information on using this console type %1.</source>
-        <translation>Typ %1 voor meer informatie over het gebruik van deze console.</translation>
-    </message>
-    <message>
-        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>WAARSCHUWING: Er zijn Scammers actief geweest, die gebruikers vragen om hier commando's te typen, waardoor de inhoud van hun portemonnee werd gestolen. Gebruik deze console niet zonder de gevolgen van een commando volledig te begrijpen.</translation>
-    </message>
-    <message>
-        <source>Network activity disabled</source>
-        <translation>Netwerkactiviteit uitgeschakeld</translation>
-    </message>
-    <message>
-        <source>Executing command without any wallet</source>
-        <translation>Uitvoeren van commando zonder gebruik van een portemonnee</translation>
-    </message>
-    <message>
-        <source>Executing command using "%1" wallet</source>
-        <translation>Uitvoeren van commando met portemonnee "%1"</translation>
-    </message>
-    <message>
-        <source>(node id: %1)</source>
-        <translation>(node id: %1)</translation>
-    </message>
-    <message>
-        <source>via %1</source>
-        <translation>via %1</translation>
-    </message>
-    <message>
-        <source>never</source>
-        <translation>nooit</translation>
-    </message>
-    <message>
-        <source>Inbound</source>
-        <translation>Inkomend</translation>
-    </message>
-    <message>
-        <source>Outbound</source>
-        <translation>Uitgaand</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>Ja</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Nee</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Onbekend</translation>
-    </message>
-</context>
-<context>
-    <name>ReceiveCoinsDialog</name>
-    <message>
-        <source>&amp;Amount:</source>
-        <translation>&amp;Bedrag</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
-    </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>&amp;Bericht</translation>
-    </message>
-    <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het Bitcoinnetwerk.</translation>
-    </message>
-    <message>
-        <source>An optional label to associate with the new receiving address.</source>
-        <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres</translation>
-    </message>
-    <message>
-        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Gebruik dit formulier om te verzoeken tot betaling. Alle velden zijn &lt;b&gt;optioneel&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Een optioneel te verzoeken bedrag. Laat dit leeg, of nul, om geen specifiek bedrag aan te vragen.</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Wis alle velden op het formulier.</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <translation>Wissen</translation>
-    </message>
-    <message>
-        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
-        <translation>Native segwit-adressen (Bech32 of BIP-173) reduceren later je transactiekosten en bieden een betere bescherming tegen typefouten, maar oude portemonnees ondersteunen deze niet. Een adres dat is compatibel met oudere portemonnees zal worden gecreëerd indien dit niet is aangevinkt.</translation>
-    </message>
-    <message>
-        <source>Generate native segwit (Bech32) address</source>
-        <translation>Genereer native segwit-adres (Bech32)</translation>
-    </message>
-    <message>
-        <source>Requested payments history</source>
-        <translation>Geschiedenis van de betalingsverzoeken</translation>
-    </message>
-    <message>
-        <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Toon het geselecteerde verzoek (doet hetzelfde als dubbelklikken)</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation>Toon</translation>
-    </message>
-    <message>
-        <source>Remove the selected entries from the list</source>
-        <translation>Verwijder de geselecteerde items van de lijst</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Verwijder</translation>
-    </message>
-    <message>
-        <source>Copy URI</source>
-        <translation>Kopieer URI</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopieer label</translation>
-    </message>
-    <message>
-        <source>Copy message</source>
-        <translation>Kopieer bericht</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
-    </message>
-</context>
-<context>
-    <name>ReceiveRequestDialog</name>
-    <message>
-        <source>QR Code</source>
-        <translation>QR-code</translation>
-    </message>
-    <message>
-        <source>Copy &amp;URI</source>
-        <translation>Kopieer &amp;URI</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Address</source>
-        <translation>Kopieer &amp;adres</translation>
-    </message>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Sla afbeelding op...</translation>
-    </message>
-    <message>
-        <source>Request payment to %1</source>
-        <translation>Betalingsverzoek tot %1</translation>
-    </message>
-    <message>
-        <source>Payment information</source>
-        <translation>Betalingsinformatie</translation>
-    </message>
-    <message>
-        <source>URI</source>
-        <translation>URI</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adres</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Bedrag</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Bericht</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Portemonnee</translation>
-    </message>
-</context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Bericht</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(geen label)</translation>
-    </message>
-    <message>
-        <source>(no message)</source>
-        <translation>(geen bericht)</translation>
-    </message>
-    <message>
-        <source>(no amount requested)</source>
-        <translation>(geen bedrag aangevraagd)</translation>
-    </message>
-    <message>
-        <source>Requested</source>
-        <translation>Verzoek ingediend</translation>
+        <location line="+2"/>
+        <source>%1 h %2 m</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
+        <location filename="../sendcoinsdialog.cpp" line="+179"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+6"/>
+        <location line="+5"/>
+        <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Verstuurde munten</translation>
+        <translation>Verstuur munten</translation>
     </message>
     <message>
+        <location line="+76"/>
         <source>Coin Control Features</source>
         <translation>Coin controle opties</translation>
     </message>
     <message>
+        <location line="+20"/>
         <source>Inputs...</source>
         <translation>Invoer...</translation>
     </message>
     <message>
+        <location line="+7"/>
         <source>automatically selected</source>
         <translation>automatisch geselecteerd</translation>
     </message>
     <message>
+        <location line="+19"/>
         <source>Insufficient funds!</source>
         <translation>Onvoldoende fonds!</translation>
     </message>
     <message>
+        <location line="+77"/>
         <source>Quantity:</source>
         <translation>Kwantiteit</translation>
     </message>
     <message>
+        <location line="+22"/>
+        <location line="+35"/>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <location line="-19"/>
         <source>Bytes:</source>
         <translation>Bytes:</translation>
     </message>
     <message>
+        <location line="+51"/>
         <source>Amount:</source>
         <translation>Bedrag:</translation>
     </message>
     <message>
+        <location line="+54"/>
         <source>Fee:</source>
         <translation>Vergoeding:</translation>
     </message>
     <message>
+        <location line="+35"/>
+        <source>Low Output:</source>
+        <translation>Lage uitvoer:</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>no</source>
+        <translation>nee</translation>
+    </message>
+    <message>
+        <location line="+32"/>
         <source>After Fee:</source>
-        <translation>Naheffing:</translation>
+        <translation>Na vergoeding:</translation>
     </message>
     <message>
-        <source>Change:</source>
-        <translation>Wisselgeld:</translation>
+        <location line="+35"/>
+        <source>Change</source>
+        <translation>Wijzigen</translation>
     </message>
     <message>
-        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Als dit is geactiveerd, maar het wisselgeldadres is leeg of ongeldig, dan wordt het wisselgeld verstuurd naar een nieuw gegenereerd adres.</translation>
+        <location line="+50"/>
+        <source>custom change address</source>
+        <translation>handmatig veranderen adres</translation>
     </message>
     <message>
-        <source>Custom change address</source>
-        <translation>Aangepast wisselgeldadres</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Transactievergoeding:</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>Kies...</translation>
-    </message>
-    <message>
-        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
-        <translation>Gebruik van de terugvalkosten kan resulteren in het verzenden van een transactie die meerdere uren of dagen (of nooit) zal duren om bevestigd te worden. Overweeg om handmatig de vergoeding in te geven of wacht totdat je de volledige keten hebt gevalideerd.</translation>
-    </message>
-    <message>
-        <source>Warning: Fee estimation is currently not possible.</source>
-        <translation>Waarschuwing: Schatting van de vergoeding is momenteel niet mogelijk.</translation>
-    </message>
-    <message>
-        <source>collapse fee-settings</source>
-        <translation>verberg vergoeding-instellingen</translation>
-    </message>
-    <message>
-        <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
-
-Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
-        <translation>Specificeer handmatig een vergoeding per kB (1,000 bytes) voor de virtuele grootte van de transactie.
-
-Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "100 satoshis per kB" voor een transactie ten grootte van 500 bytes (de helft van 1 kB) uiteindelijk een vergoeding van maar liefst 50 satoshis betekenen.</translation>
-    </message>
-    <message>
-        <source>per kilobyte</source>
-        <translation>per kilobyte</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Verbergen</translation>
-    </message>
-    <message>
-        <source>Recommended:</source>
-        <translation>Aanbevolen:</translation>
-    </message>
-    <message>
-        <source>Custom:</source>
-        <translation>Aangepast:</translation>
-    </message>
-    <message>
-        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Slimme transactiekosten is nog niet geïnitialiseerd. Dit duurt meestal een paar blokken...)</translation>
-    </message>
-    <message>
+        <location line="+106"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Verstuur in een keer aan verschillende ontvangers</translation>
+        <translation>Verstuur aan verschillende ontvangers ineens</translation>
     </message>
     <message>
+        <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>Voeg &amp;ontvanger toe</translation>
+        <translation>Voeg &amp;Ontvanger Toe</translation>
     </message>
     <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Wis alle velden van het formulier.</translation>
+        <location line="+16"/>
+        <source>Remove all transaction fields</source>
+        <translation>Verwijder alles in de invulvelden</translation>
     </message>
     <message>
-        <source>Dust:</source>
-        <translation>Stof:</translation>
-    </message>
-    <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar bitcointransacties dan het netwerk kan verwerken.</translation>
-    </message>
-    <message>
-        <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
-        <translation>Een te lage toeslag kan tot gevolg hebben dat de transactie nooit bevestigd wordt (lees de tooltip)</translation>
-    </message>
-    <message>
-        <source>Confirmation time target:</source>
-        <translation>Bevestigingstijddoel:</translation>
-    </message>
-    <message>
-        <source>Enable Replace-By-Fee</source>
-        <translation>Activeer Replace-By-Fee</translation>
-    </message>
-    <message>
-        <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
-        <translation>Met Replace-By-Fee (BIP-125) kun je de vergoeding voor een transactie verhogen na dat deze verstuurd is. Zonder dit kan een hogere vergoeding aangeraden worden om te compenseren voor de hogere kans op transactie vertragingen.</translation>
-    </message>
-    <message>
+        <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;alles</translation>
+        <translation>Verwijder &amp;Alles</translation>
     </message>
     <message>
+        <location line="+24"/>
         <source>Balance:</source>
         <translation>Saldo:</translation>
     </message>
     <message>
+        <location line="+47"/>
         <source>Confirm the send action</source>
         <translation>Bevestig de verstuuractie</translation>
     </message>
     <message>
+        <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>V&amp;erstuur</translation>
+        <translation>&amp;Verstuur</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="-171"/>
+        <source>Enter a Estoque address (e.g. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</source>
+        <translation>Voeg een Estoque adres in (bijv. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</translation>
+    </message>
+    <message>
+        <location line="+15"/>
         <source>Copy quantity</source>
         <translation>Kopieer aantal</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Copy fee</source>
         <translation>Kopieer vergoeding</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Copy after fee</source>
         <translation>Kopieer na vergoeding</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Copy bytes</source>
         <translation>Kopieer bytes</translation>
     </message>
     <message>
-        <source>Copy dust</source>
-        <translation>Kopieër stof</translation>
+        <location line="+1"/>
+        <source>Copy low output</source>
+        <translation>Kopieer lage uitvoer</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Copy change</source>
-        <translation>Kopieer wijziging</translation>
+        <translation>Kopieer wijzig</translation>
     </message>
     <message>
-        <source>%1 (%2 blocks)</source>
-        <translation>%1 (%2 blokken)</translation>
+        <location line="+85"/>
+        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
+        <translation>&lt;b&gt; %1 &lt;/b&gt; to %2 (%3)</translation>
     </message>
     <message>
-        <source> from wallet '%1'</source>
-        <translation> van portemonnee '%1'</translation>
-    </message>
-    <message>
-        <source>%1 to '%2'</source>
-        <translation>%1 naar %2</translation>
-    </message>
-    <message>
-        <source>%1 to %2</source>
-        <translation>%1 tot %2</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?</source>
-        <translation>Weet u zeker dat u wilt verzenden?</translation>
-    </message>
-    <message>
-        <source>or</source>
-        <translation>of</translation>
-    </message>
-    <message>
-        <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
-        <translation>Je kunt de vergoeding later verhogen (signaleert Replace-By-Fee, BIP-125).</translation>
-    </message>
-    <message>
-        <source>Please, review your transaction.</source>
-        <translation>Controleer uw transactie aub.</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Transactiekosten</translation>
-    </message>
-    <message>
-        <source>Not signalling Replace-By-Fee, BIP-125.</source>
-        <translation>Signaleert geen Replace-By-Fee, BIP-125.</translation>
-    </message>
-    <message>
-        <source>Total Amount</source>
-        <translation>Totaalbedrag</translation>
-    </message>
-    <message>
+        <location line="+5"/>
         <source>Confirm send coins</source>
         <translation>Bevestig versturen munten</translation>
     </message>
     <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Het adres van de ontvanger is niet geldig. Gelieve opnieuw te controleren.</translation>
+        <location line="+1"/>
+        <source>Are you sure you want to send %1?</source>
+        <translation>Weet je zeker dat je %1 wilt verzenden?</translation>
     </message>
     <message>
+        <location line="+0"/>
+        <source> and </source>
+        <translation>en</translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Het ontvangstadres is niet geldig, controleer uw invoer.</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
         <translation>Het ingevoerde bedrag moet groter zijn dan 0.</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Het bedrag is hoger dan uw huidige saldo.</translation>
+        <translation>Bedrag is hoger dan uw huidige saldo</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Het totaal overschrijdt uw huidige saldo wanneer de %1 transactie vergoeding wordt meegerekend.</translation>
+        <translation>Totaal overschrijdt uw huidige saldo wanneer de %1 transactiekosten worden meegerekend</translation>
     </message>
     <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Dubbel adres gevonden: adressen mogen maar één keer worden gebruikt worden.</translation>
+        <location line="+6"/>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Dubbel adres gevonden, u kunt slechts eenmaal naar een bepaald adres verzenden per verstuurtransactie</translation>
     </message>
     <message>
-        <source>Transaction creation failed!</source>
-        <translation>Transactiecreatie mislukt</translation>
+        <location line="+5"/>
+        <source>Error: Transaction creation failed!</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>The transaction was rejected with the following reason: %1</source>
-        <translation>De transactie werd afgewezen om de volgende reden: %1</translation>
+        <location line="+5"/>
+        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Fout: De transactie was geweigerd, Dit kan gebeuren als sommige munten in je portemonnee al gebruikt zijn, door het gebruik van een kopie van wallet.dat en de munten in de kopie zijn niet gemarkeerd als gebruikt.</translation>
     </message>
     <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Een vergoeding van meer dan %1 wordt beschouwd als een absurd hoge vergoeding.</translation>
+        <location line="+241"/>
+        <source>WARNING: Invalid Estoque address</source>
+        <translation>WAARSCHUWING: Ongeldig Estoque adres</translation>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>Betalingsverzoek verlopen.</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Schatting is dat bevestiging begint over %n blok.</numerusform><numerusform>Schatting is dat bevestiging begint over %n blokken.</numerusform></translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Waarschuwing: Ongeldig Bitcoinadres</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown change address</source>
-        <translation>Waarschuwing: Onbekend wisselgeldadres</translation>
-    </message>
-    <message>
-        <source>Confirm custom change address</source>
-        <translation>Bevestig aangepast wisselgeldadres</translation>
-    </message>
-    <message>
-        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>Het wisselgeldadres dat u heeft geselecteerd maakt geen deel uit van deze portemonnee. Een deel of zelfs alle geld in uw portemonnee kan mogelijk naar dit adres worden verzonden. Weet je het zeker?</translation>
-    </message>
-    <message>
+        <location line="+13"/>
         <source>(no label)</source>
         <translation>(geen label)</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>WARNING: unknown change address</source>
+        <translation>WAARSCHUWING: Onbekend adres</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
+        <source>Form</source>
+        <translation>Vorm</translation>
+    </message>
+    <message>
+        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>B&amp;edrag:</translation>
+        <translation>Bedra&amp;g:</translation>
     </message>
     <message>
+        <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Betaal &amp;aan:</translation>
+        <translation>Betaal &amp;Aan:</translation>
     </message>
     <message>
+        <location line="+34"/>
+        <source>The address to send the payment to (e.g. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+60"/>
+        <location filename="../sendcoinsentry.cpp" line="+26"/>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Vul een label in voor dit adres om het toe te voegen aan uw adresboek</translation>
+    </message>
+    <message>
+        <location line="-78"/>
         <source>&amp;Label:</source>
         <translation>&amp;Label:</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <location line="+28"/>
+        <source>Choose address from address book</source>
+        <translation>Kies adres uit adresboek</translation>
     </message>
     <message>
-        <source>This is a normal payment.</source>
-        <translation>Dit is een normale betaling.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Het Bitcoinadres om betaling aan te versturen</translation>
-    </message>
-    <message>
+        <location line="+10"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
+        <location line="+7"/>
         <source>Paste address from clipboard</source>
         <translation>Plak adres vanuit klembord</translation>
     </message>
     <message>
+        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Remove this entry</source>
-        <translation>Verwijder deze toevoeging</translation>
+        <location line="+7"/>
+        <source>Remove this recipient</source>
+        <translation>Verwijder deze ontvanger</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>De transactiekosten zal worden afgetrokken van het bedrag dat verstuurd wordt. De ontvangers zullen minder bitcoins ontvangen dan ingevoerd is in het hoeveelheidsveld. Als er meerdere ontvangers geselecteerd zijn, dan worden de transactiekosten gelijk verdeeld.</translation>
-    </message>
-    <message>
-        <source>S&amp;ubtract fee from amount</source>
-        <translation>Trek de transactiekosten a&amp;f van het bedrag.</translation>
-    </message>
-    <message>
-        <source>Use available balance</source>
-        <translation>Gebruik beschikbaar saldo</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Bericht:</translation>
-    </message>
-    <message>
-        <source>This is an unauthenticated payment request.</source>
-        <translation>Dit is een niet-geverifieerd betalingsverzoek.</translation>
-    </message>
-    <message>
-        <source>This is an authenticated payment request.</source>
-        <translation>Dit is een geverifieerd betalingsverzoek.</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
-    </message>
-    <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de bitcoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Bitcoinnetwerk.</translation>
-    </message>
-    <message>
-        <source>Pay To:</source>
-        <translation>Betaal Aan:</translation>
-    </message>
-    <message>
-        <source>Memo:</source>
-        <translation>Memo:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Vul een label in voor dit adres om het toe te voegen aan uw adresboek</translation>
-    </message>
-</context>
-<context>
-    <name>SendConfirmationDialog</name>
-    <message>
-        <source>Yes</source>
-        <translation>Ja</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWindow</name>
-    <message>
-        <source>%1 is shutting down...</source>
-        <translation>%1 is aan het afsluiten...</translation>
-    </message>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Sluit de computer niet af totdat dit venster verdwenen is.</translation>
+        <location filename="../sendcoinsentry.cpp" line="+1"/>
+        <source>Enter a Estoque address (e.g. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</source>
+        <translation>Voeg een Estoque adres in (bijv. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Handtekeningen – Onderteken een bericht / Verifiëer een handtekening</translation>
+        <translation>Handtekeningen - Onderteken een bericht / Verifiëer een handtekening</translation>
     </message>
     <message>
+        <location line="+13"/>
+        <location line="+124"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Onderteken bericht</translation>
+        <translation>O&amp;nderteken Bericht</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u Bitcoins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
+        <location line="-118"/>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>U kunt berichten ondertekenen met een van uw adressen om te bewijzen dat u dit adres bezit. Pas op dat u geen onduidelijke dingen ondertekent, want phishingaanvallen zouden u kunnen misleiden om zo uw identiteit te stelen. Onderteken alleen berichten waarmee u het volledig eens bent.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Het Bitcoinadres om bericht mee te ondertekenen</translation>
+        <location line="+18"/>
+        <source>The address to sign the message with (e.g. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</source>
+        <translation>Het adres om het bericht te ondertekenen (bijv. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC) </translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <location line="+10"/>
+        <location line="+203"/>
+        <source>Choose an address from the address book</source>
+        <translation>Kies een adres uit het adresboek</translation>
     </message>
     <message>
+        <location line="-193"/>
+        <location line="+203"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
+        <location line="-193"/>
         <source>Paste address from clipboard</source>
         <translation>Plak adres vanuit klembord</translation>
     </message>
     <message>
+        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
+        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
         <translation>Typ hier het bericht dat u wilt ondertekenen</translation>
     </message>
     <message>
-        <source>Signature</source>
-        <translation>Handtekening</translation>
-    </message>
-    <message>
+        <location line="+24"/>
         <source>Copy the current signature to the system clipboard</source>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
+        <location line="+21"/>
+        <source>Sign the message to prove you own this Estoque address</source>
+        <translation>Teken een bericht om te bewijzen dat je een Estoque adres bezit.</translation>
     </message>
     <message>
-        <source>Sign &amp;Message</source>
-        <translation>Onderteken &amp;bericht</translation>
-    </message>
-    <message>
+        <location line="+17"/>
         <source>Reset all sign message fields</source>
         <translation>Verwijder alles in de invulvelden</translation>
     </message>
     <message>
+        <location line="+3"/>
+        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;alles</translation>
+        <translation>Verwijder &amp;Alles</translation>
     </message>
     <message>
+        <location line="-87"/>
+        <location line="+70"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifiëer bericht</translation>
+        <translation>&amp;Verifiëer Bericht</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Voer het adres van de ontvanger in, bericht (zorg ervoor dat de regeleinden, spaties, tabs etc. precies kloppen) en onderteken onderaan om het bericht te verifiëren. Wees voorzicht om niet meer in de ondertekening te lezen dan in het getekende bericht zelf, om te voorkomen dat je wordt aangevallen met een man-in-the-middle attack. Houd er mee rekening dat dit alleen de ondertekende partij bewijst met het ontvangen adres, er kan niet bewezen worden dat er een transactie heeft plaatsgevonden!</translation>
+        <location line="-64"/>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Voer het ondertekenende adres, bericht en handtekening hieronder in (let erop dat u nieuwe regels, spaties en tabs juist overneemt) om de handtekening te verifiëren. Let erop dat u niet meer uit het bericht interpreteert dan er daadwerkelijk staat,  om te voorkomen dat u wordt misleid in een man-in-the-middle-aanval.</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Het Bitcoinadres waarmee het bericht ondertekend is</translation>
+        <location line="+21"/>
+        <source>The address the message was signed with (e.g. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</source>
+        <translation>Het adres van het bericht is ondertekend met (bijv. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
+        <location line="+40"/>
+        <source>Verify the message to ensure it was signed with the specified Estoque address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Estoque adres</translation>
     </message>
     <message>
-        <source>Verify &amp;Message</source>
-        <translation>Verifiëer &amp;bericht</translation>
-    </message>
-    <message>
+        <location line="+17"/>
         <source>Reset all verify message fields</source>
         <translation>Verwijder alles in de invulvelden</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Klik op "Onderteken Bericht" om de handtekening te genereren</translation>
+        <location filename="../signverifymessagedialog.cpp" line="+27"/>
+        <location line="+3"/>
+        <source>Enter a Estoque address (e.g. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</source>
+        <translation>Voeg een Estoque adres in (bijv. ESYEEaDo9tDSJnJtUnccdYGMPgUVZYHvoC)</translation>
     </message>
     <message>
+        <location line="-2"/>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
+        <translation>Klik &quot;Onderteken Bericht&quot; om de handtekening te genereren</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Enter Estoque signature</source>
+        <translation>Voer Estoque handtekening in</translation>
+    </message>
+    <message>
+        <location line="+85"/>
+        <location line="+81"/>
         <source>The entered address is invalid.</source>
         <translation>Het opgegeven adres is ongeldig.</translation>
     </message>
     <message>
+        <location line="-81"/>
+        <location line="+8"/>
+        <location line="+73"/>
+        <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>Controleer het adres en probeer het opnieuw.</translation>
+        <translation>Controleer s.v.p. het adres en probeer het opnieuw.</translation>
     </message>
     <message>
+        <location line="-81"/>
+        <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
         <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
     </message>
     <message>
+        <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee-ontsleuteling is geannuleerd.</translation>
+        <translation>Portemonnee-ontsleuteling is geannuleerd</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
         <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
     </message>
     <message>
+        <location line="+12"/>
         <source>Message signing failed.</source>
         <translation>Ondertekenen van het bericht is mislukt.</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>Message signed.</source>
         <translation>Bericht ondertekend.</translation>
     </message>
     <message>
+        <location line="+59"/>
         <source>The signature could not be decoded.</source>
         <translation>De handtekening kon niet worden gedecodeerd.</translation>
     </message>
     <message>
+        <location line="+0"/>
+        <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>Controleer de handtekening en probeer het opnieuw.</translation>
+        <translation>Controleer s.v.p. de handtekening en probeer het opnieuw.</translation>
     </message>
     <message>
+        <location line="+0"/>
         <source>The signature did not match the message digest.</source>
         <translation>De handtekening hoort niet bij het bericht.</translation>
     </message>
     <message>
+        <location line="+7"/>
         <source>Message verification failed.</source>
         <translation>Berichtverificatie mislukt.</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>Message verified.</source>
-        <translation>Bericht geverifiëerd.</translation>
+        <translation>Bericht correct geverifiëerd.</translation>
     </message>
 </context>
 <context>
     <name>TrafficGraphWidget</name>
     <message>
+        <location filename="../trafficgraphwidget.cpp" line="+75"/>
         <source>KB/s</source>
-        <translation>KB/s</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
-    </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="+25"/>
         <source>Open until %1</source>
-        <translation>Open tot %1</translation>
+        <translation>Openen totdat %1</translation>
     </message>
     <message>
-        <source>conflicted with a transaction with %1 confirmations</source>
-        <translation>geconflicteerd met een transactie met %1 confirmaties</translation>
+        <location line="+6"/>
+        <source>conflicted</source>
+        <translation>conflicted</translation>
     </message>
     <message>
-        <source>0/unconfirmed, %1</source>
-        <translation>0/onbevestigd, %1</translation>
+        <location line="+2"/>
+        <source>%1/offline</source>
+        <translation>%1/offline</translation>
     </message>
     <message>
-        <source>in memory pool</source>
-        <translation>in geheugenpoel</translation>
-    </message>
-    <message>
-        <source>not in memory pool</source>
-        <translation>niet in geheugenpoel</translation>
-    </message>
-    <message>
-        <source>abandoned</source>
-        <translation>opgegeven</translation>
-    </message>
-    <message>
+        <location line="+2"/>
         <source>%1/unconfirmed</source>
         <translation>%1/onbevestigd</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>%1 confirmations</source>
         <translation>%1 bevestigingen</translation>
     </message>
     <message>
+        <location line="+17"/>
         <source>Status</source>
         <translation>Status</translation>
     </message>
+    <message numerus="yes">
+        <location line="+7"/>
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, uitgezonden naar %n node</numerusform><numerusform>, uitgezonden naar %n nodes</numerusform></translation>
+    </message>
     <message>
+        <location line="+4"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
+        <location line="+7"/>
         <source>Source</source>
         <translation>Bron</translation>
     </message>
     <message>
+        <location line="+0"/>
         <source>Generated</source>
         <translation>Gegenereerd</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <location line="+13"/>
         <source>From</source>
         <translation>Van</translation>
     </message>
     <message>
-        <source>unknown</source>
-        <translation>onbekend</translation>
-    </message>
-    <message>
+        <location line="+1"/>
+        <location line="+19"/>
+        <location line="+58"/>
         <source>To</source>
         <translation>Aan</translation>
     </message>
     <message>
+        <location line="-74"/>
+        <location line="+2"/>
         <source>own address</source>
         <translation>eigen adres</translation>
     </message>
     <message>
-        <source>watch-only</source>
-        <translation>alleen-bekijkbaar</translation>
-    </message>
-    <message>
+        <location line="-2"/>
         <source>label</source>
         <translation>label</translation>
     </message>
     <message>
+        <location line="+34"/>
+        <location line="+12"/>
+        <location line="+45"/>
+        <location line="+17"/>
+        <location line="+30"/>
         <source>Credit</source>
         <translation>Credit</translation>
     </message>
     <message numerus="yes">
+        <location line="-102"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>komt beschikbaar na %n nieuwe blok</numerusform><numerusform>komt beschikbaar na %n nieuwe blokken</numerusform></translation>
+        <translation><numerusform>komt tot wasdom na %n nieuw blok</numerusform><numerusform>komt tot wasdom na %n nieuwe blokken</numerusform></translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>not accepted</source>
         <translation>niet geaccepteerd</translation>
     </message>
     <message>
+        <location line="+44"/>
+        <location line="+8"/>
+        <location line="+15"/>
+        <location line="+30"/>
         <source>Debit</source>
         <translation>Debet</translation>
     </message>
     <message>
-        <source>Total debit</source>
-        <translation>Totaal debit</translation>
-    </message>
-    <message>
-        <source>Total credit</source>
-        <translation>Totaal credit</translation>
-    </message>
-    <message>
+        <location line="-39"/>
         <source>Transaction fee</source>
         <translation>Transactiekosten</translation>
     </message>
     <message>
+        <location line="+16"/>
         <source>Net amount</source>
         <translation>Netto bedrag</translation>
     </message>
     <message>
+        <location line="+6"/>
         <source>Message</source>
         <translation>Bericht</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>Comment</source>
         <translation>Opmerking</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>Transaction ID</source>
-        <translation>Transactie-ID</translation>
+        <translation>Transactie-ID:</translation>
     </message>
     <message>
-        <source>Transaction total size</source>
-        <translation>Transactie totale grootte</translation>
+        <location line="+3"/>
+        <source>Generated coins must mature 30 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Gegenereerd munten moeten 30 blokken maturen voordat ze kunnen worden besteed. Wanneer je een blok genereerd, het naar het netwerk is verzonden en toegevoegd aan de blokketen, zal de status veranderen naar &quot;niet geaccepteerd&quot;and kan het niet uitgegeven worden.  Dit kan soms gebeuren als een ander knooppunt genereert een blok binnen een paar seconden na jou.</translation>
     </message>
     <message>
-        <source>Transaction virtual size</source>
-        <translation>Transactie virtuele grootte</translation>
-    </message>
-    <message>
-        <source>Output index</source>
-        <translation>Output index</translation>
-    </message>
-    <message>
-        <source>Merchant</source>
-        <translation>Handelaar</translation>
-    </message>
-    <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Gegenereerde munten moeten %1 blokken rijpen voordat ze kunnen worden besteed. Toen dit blok gegenereerd werd, werd het uitgezonden naar het netwerk om aan de blokketen toegevoegd te worden. Als het niet lukt om in de keten toegevoegd te worden, zal de status te veranderen naar "niet geaccepteerd" en zal het niet besteedbaar zijn. Dit kan soms gebeuren als een ander node een blok genereert binnen een paar seconden na die van u.</translation>
-    </message>
-    <message>
+        <location line="+7"/>
         <source>Debug information</source>
         <translation>Debug-informatie</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>Transaction</source>
         <translation>Transactie</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>Inputs</source>
         <translation>Inputs</translation>
     </message>
     <message>
+        <location line="+21"/>
         <source>Amount</source>
         <translation>Bedrag</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>true</source>
         <translation>waar</translation>
     </message>
     <message>
+        <location line="+0"/>
         <source>false</source>
         <translation>onwaar</translation>
+    </message>
+    <message>
+        <location line="-202"/>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, is nog niet met succes uitgezonden</translation>
+    </message>
+    <message numerus="yes">
+        <location line="-36"/>
+        <source>Open for %n more block(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message>
+        <location line="+67"/>
+        <source>unknown</source>
+        <translation>onbekend</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>Dit venster laat een uitgebreide beschrijving van de transactie zien</translation>
+        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
+        <source>Transaction details</source>
+        <translation>Transactiedetails</translation>
     </message>
     <message>
-        <source>Details for %1</source>
-        <translation>Details voor %1</translation>
+        <location line="+6"/>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Dit venster laat een uitgebreide beschrijving van de transactie zien</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="+231"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
+        <location line="+0"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
+        <location line="+0"/>
+        <source>Address</source>
+        <translation>Adres</translation>
     </message>
     <message>
+        <location line="+0"/>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <location line="+52"/>
         <source>Open until %1</source>
         <translation>Open tot %1</translation>
     </message>
     <message>
-        <source>Unconfirmed</source>
-        <translation>Onbevestigd</translation>
-    </message>
-    <message>
-        <source>Abandoned</source>
-        <translation>Opgegeven</translation>
-    </message>
-    <message>
-        <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Bevestigen (%1 van %2 aanbevolen bevestigingen)</translation>
-    </message>
-    <message>
+        <location line="+12"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Bevestigd (%1 bevestigingen)</translation>
     </message>
+    <message numerus="yes">
+        <location line="-15"/>
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
+    </message>
     <message>
+        <location line="+6"/>
+        <source>Offline</source>
+        <translation>Offline</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Unconfirmed</source>
+        <translation>Onbevestigd:</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Bevestigen.. (%1 van de %2 bevestigingen)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Conflicted</source>
-        <translation>Conflicterend</translation>
+        <translation>Conflicted</translation>
     </message>
     <message>
+        <location line="+3"/>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Niet beschikbaar (%1 bevestigingen, zal beschikbaar zijn na %2)</translation>
+        <translation>Immature (%1 bevestiging, word beschikbaar na %2)</translation>
     </message>
     <message>
+        <location line="+3"/>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Dit blok is niet ontvangen bij andere nodes en zal waarschijnlijk niet worden geaccepteerd!</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Generated but not accepted</source>
         <translation>Gegenereerd maar niet geaccepteerd</translation>
     </message>
     <message>
+        <location line="+42"/>
         <source>Received with</source>
         <translation>Ontvangen met</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>Received from</source>
         <translation>Ontvangen van</translation>
     </message>
     <message>
+        <location line="+3"/>
         <source>Sent to</source>
         <translation>Verzonden aan</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>Payment to yourself</source>
         <translation>Betaling aan uzelf</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>Mined</source>
         <translation>Gedolven</translation>
     </message>
     <message>
-        <source>watch-only</source>
-        <translation>alleen-bekijkbaar</translation>
-    </message>
-    <message>
+        <location line="+38"/>
         <source>(n/a)</source>
         <translation>(nvt)</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(geen label)</translation>
-    </message>
-    <message>
+        <location line="+194"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transactiestatus. Houd de cursor boven dit veld om het aantal bevestigingen te laten zien.</translation>
+        <translation>Transactiestatus. Houd de muiscursor boven dit veld om het aantal bevestigingen te laten zien.</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
         <translation>Datum en tijd waarop deze transactie is ontvangen.</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>Type of transaction.</source>
         <translation>Type transactie.</translation>
     </message>
     <message>
-        <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Of er een alleen-bekijken-adres is betrokken bij deze transactie.</translation>
+        <location line="+2"/>
+        <source>Destination address of transaction.</source>
+        <translation>Ontvangend adres van transactie.</translation>
     </message>
     <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Door gebruiker gedefinieerde intentie/doel van de transactie.</translation>
-    </message>
-    <message>
+        <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Bedrag verwijderd van of toegevoegd aan saldo.</translation>
+        <translation>Bedrag verwijderd van of toegevoegd aan saldo</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
+        <location filename="../transactionview.cpp" line="+54"/>
+        <location line="+17"/>
         <source>All</source>
         <translation>Alles</translation>
     </message>
     <message>
+        <location line="-16"/>
         <source>Today</source>
         <translation>Vandaag</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>This week</source>
         <translation>Deze week</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>This month</source>
         <translation>Deze maand</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Last month</source>
         <translation>Vorige maand</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>This year</source>
         <translation>Dit jaar</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Range...</source>
         <translation>Bereik...</translation>
     </message>
     <message>
+        <location line="+12"/>
         <source>Received with</source>
         <translation>Ontvangen met</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>Sent to</source>
         <translation>Verzonden aan</translation>
     </message>
     <message>
+        <location line="+2"/>
         <source>To yourself</source>
         <translation>Aan uzelf</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Mined</source>
         <translation>Gedolven</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Other</source>
         <translation>Anders</translation>
     </message>
     <message>
-        <source>Enter address, transaction id, or label to search</source>
-        <translation>Voer adres, transactie-ID of etiket in om te zoeken</translation>
+        <location line="+7"/>
+        <source>Enter address or label to search</source>
+        <translation>Vul adres of label in om te zoeken</translation>
     </message>
     <message>
+        <location line="+7"/>
         <source>Min amount</source>
         <translation>Min. bedrag</translation>
     </message>
     <message>
-        <source>Abandon transaction</source>
-        <translation>Doe afstand van transactie</translation>
-    </message>
-    <message>
-        <source>Increase transaction fee</source>
-        <translation>Toename transactiekosten</translation>
-    </message>
-    <message>
+        <location line="+34"/>
         <source>Copy address</source>
         <translation>Kopieer adres</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Copy label</source>
         <translation>Kopieer label</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Copy transaction ID</source>
         <translation>Kopieer transactie-ID</translation>
     </message>
     <message>
-        <source>Copy raw transaction</source>
-        <translation>Kopieer ruwe transactie</translation>
-    </message>
-    <message>
-        <source>Copy full transaction details</source>
-        <translation>Kopieer volledige transactiedetials</translation>
-    </message>
-    <message>
+        <location line="+1"/>
         <source>Edit label</source>
         <translation>Bewerk label</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Show transaction details</source>
         <translation>Toon transactiedetails</translation>
     </message>
     <message>
-        <source>Export Transaction History</source>
-        <translation>Exporteer transactiegeschiedenis</translation>
+        <location line="+138"/>
+        <source>Export Transaction Data</source>
+        <translation>Exporteer Transactie Data</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Kommagescheiden bestand (*.csv)</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>Confirmed</source>
         <translation>Bevestigd</translation>
     </message>
     <message>
-        <source>Watch-only</source>
-        <translation>Alleen-bekijkbaar</translation>
-    </message>
-    <message>
+        <location line="+1"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Label</source>
         <translation>Label</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Address</source>
         <translation>Adres</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <source>Exporting Failed</source>
-        <translation>Export mislukt</translation>
+        <location line="+4"/>
+        <source>Error exporting</source>
+        <translation>Fout bij exporteren</translation>
     </message>
     <message>
-        <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Er is een fout opgetreden bij het opslaan van de transactiegeschiedenis naar %1.</translation>
+        <location line="+0"/>
+        <source>Could not write to file %1.</source>
+        <translation>Kan niet schrijven naar bestand %1</translation>
     </message>
     <message>
-        <source>Exporting Successful</source>
-        <translation>Export succesvol</translation>
-    </message>
-    <message>
-        <source>The transaction history was successfully saved to %1.</source>
-        <translation>De transactiegeschiedenis was succesvol bewaard in %1.</translation>
-    </message>
-    <message>
+        <location line="+100"/>
         <source>Range:</source>
         <translation>Bereik:</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>to</source>
         <translation>naar</translation>
     </message>
 </context>
 <context>
-    <name>UnitDisplayStatusBarControl</name>
-    <message>
-        <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Eenheid om bedragen uit te drukken. Klik om een andere eenheid te selecteren.</translation>
-    </message>
-</context>
-<context>
-    <name>WalletController</name>
-    <message>
-        <source>Close wallet</source>
-        <translation>Portemonnee Sluiten</translation>
-    </message>
-    <message>
-        <source>Closing the wallet for too long can result in having to resync the entire chain if pruning is enabled.</source>
-        <translation>De portemonee te lang gesloten houden kan leiden tot het moeten hersynchroniseren van de hele keten als snoeien aktief is. </translation>
-    </message>
-</context>
-<context>
-    <name>WalletFrame</name>
-    <message>
-        <source>No wallet has been loaded.</source>
-        <translation>Er is geen portemonnee geladen.</translation>
-    </message>
-</context>
-<context>
     <name>WalletModel</name>
     <message>
-        <source>Send Coins</source>
-        <translation>Verstuur munten</translation>
-    </message>
-    <message>
-        <source>Fee bump error</source>
-        <translation>Vergoedingsverhoging fout</translation>
-    </message>
-    <message>
-        <source>Increasing transaction fee failed</source>
-        <translation>Verhogen transactie vergoeding is mislukt</translation>
-    </message>
-    <message>
-        <source>Do you want to increase the fee?</source>
-        <translation>Wil je de vergoeding verhogen?</translation>
-    </message>
-    <message>
-        <source>Current fee:</source>
-        <translation>Huidige vergoeding:</translation>
-    </message>
-    <message>
-        <source>Increase:</source>
-        <translation>Toename:</translation>
-    </message>
-    <message>
-        <source>New fee:</source>
-        <translation>Nieuwe vergoeding:</translation>
-    </message>
-    <message>
-        <source>Confirm fee bump</source>
-        <translation>Bevestig vergoedingsaanpassing</translation>
-    </message>
-    <message>
-        <source>Can't sign transaction.</source>
-        <translation>Kan transactie niet ondertekenen.</translation>
-    </message>
-    <message>
-        <source>Could not commit transaction</source>
-        <translation>Kon de transactie niet voltooien</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>standaard portemonnee</translation>
-    </message>
-</context>
-<context>
-    <name>WalletView</name>
-    <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Exporteer</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
-    </message>
-    <message>
-        <source>Backup Wallet</source>
-        <translation>Portemonnee backuppen</translation>
-    </message>
-    <message>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Portemonneedata (*.dat)</translation>
-    </message>
-    <message>
-        <source>Backup Failed</source>
-        <translation>Backup mislukt</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Er is een fout opgetreden bij het wegschrijven van de portemonneedata naar %1.</translation>
-    </message>
-    <message>
-        <source>Backup Successful</source>
-        <translation>Backup succesvol</translation>
-    </message>
-    <message>
-        <source>The wallet data was successfully saved to %1.</source>
-        <translation>De portemonneedata is succesvol opgeslagen in %1.</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Annuleren</translation>
+        <location filename="../walletmodel.cpp" line="+212"/>
+        <source>Sending...</source>
+        <translation>Versturen...</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Uitgegeven onder de MIT software licentie, zie het bijgevoegde bestand %s of %s</translation>
+        <location filename="../bitcoinstrings.cpp" line="+8"/>
+        <source>Estoque version</source>
+        <translation>Estoque versie</translation>
     </message>
     <message>
-        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Prune is ingesteld op minder dan het minimum van %d MiB. Gebruik a.u.b. een hoger aantal.</translation>
+        <location line="+1"/>
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
     </message>
     <message>
-        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Prune: laatste wallet synchronisatie gaat verder terug dan de middels -prune beperkte data. U moet -reindex gebruiken (downloadt opnieuw de gehele blokketen voor een pruned node)</translation>
+        <location line="+1"/>
+        <source>Send command to -server or estoqued</source>
+        <translation>Verstuur commando naar -server of estoqued</translation>
     </message>
     <message>
-        <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Herscannen is niet mogelijk i.c.m. -prune. U moet -reindex gebruiken dat de hele blokketen opnieuw zal downloaden.</translation>
+        <location line="+1"/>
+        <source>List commands</source>
+        <translation>Lijst van commando&apos;s</translation>
     </message>
     <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Fout: er is een fout opgetreden,  zie debug.log voor details</translation>
+        <location line="+1"/>
+        <source>Get help for a command</source>
+        <translation>Toon hulp voor een commando</translation>
     </message>
     <message>
-        <source>Pruning blockstore...</source>
-        <translation>Blokopslag prunen...</translation>
+        <location line="+1"/>
+        <source>Options:</source>
+        <translation>Opties:</translation>
     </message>
     <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Niet mogelijk ok HTTP-server te starten. Zie debuglogboek voor details.</translation>
+        <location line="+2"/>
+        <source>Specify configuration file (default: estoque.conf)</source>
+        <translation>Selecteer configuratie bestand (standaard: estoque.conf)</translation>
     </message>
     <message>
-        <source>The %s developers</source>
-        <translation>De %s ontwikkelaars</translation>
+        <location line="+1"/>
+        <source>Specify pid file (default: estoqued.pid)</source>
+        <translation>Selecteer pid bestand (standaard: estoque.conf)</translation>
     </message>
     <message>
-        <source>Can't generate a change-address key. No keys in the internal keypool and can't generate any keys.</source>
-        <translation>Kan geen rest-adres sleutel genereren. Er zijn geen sleutels in de interne sleutelverzameling en ik kan geen sleutels genereren. </translation>
+        <location line="+2"/>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Specificeer het portemonnee bestand (vanuit de gegevensmap)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Kan geen lock verkrijgen op gegevensmap %s. %s draait waarschijnlijk al.</translation>
+        <location line="-1"/>
+        <source>Specify data directory</source>
+        <translation>Stel datamap in</translation>
     </message>
     <message>
-        <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
-        <translation>Kan niet specifieke verbindingen voorzien en tegelijk addrman uitgaande verbindingen laten vinden.</translation>
+        <location line="+163"/>
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=estoquerpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;Estoque Alert&quot; admin@foo.com
+</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Waarschuwing: Fout bij het lezen van %s! Alle sleutels zijn in goede orde uitgelezen, maar transactiedata of adresboeklemma's zouden kunnen ontbreken of fouten bevatten.</translation>
+        <location line="-161"/>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Stel databankcachegrootte in in megabytes (standaard: 25)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd van uw computer correct zijn ingesteld! Bij een onjuist ingestelde klok zal %s niet goed werken.</translation>
+        <location line="+1"/>
+        <source>Set database disk log size in megabytes (default: 100)</source>
+        <translation>Stel database cache grootte in in megabytes (standaard: 100)</translation>
     </message>
     <message>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Gelieve bij te dragen als je %s nuttig vindt. Bezoek %s voor meer informatie over de software.</translation>
+        <location line="+5"/>
+        <source>Listen for connections on &lt;port&gt; (default: 12974 or testnet: 22974)</source>
+        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 12974 of testnet: 22974)</translation>
     </message>
     <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>De blokdatabase bevat een blok dat lijkt uit de toekomst te komen. Dit kan gebeuren omdat de datum en tijd van uw computer niet goed staat. Herbouw de blokdatabase pas nadat u de datum en tijd van uw computer correct heeft ingesteld.</translation>
+        <location line="+1"/>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Onderhoud maximaal &lt;n&gt; verbindingen naar peers (standaard: 125)</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Dit is een pre-release testversie - gebruik op eigen risico! Gebruik deze niet voor het delven van munten of handelsdoeleinden</translation>
+        <location line="+3"/>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Verbind naar een node om adressen van anderen op te halen, en verbreek vervolgens de verbinding</translation>
     </message>
     <message>
-        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
-        <translation>Dit is de transactievergoeding die u mag afleggen als het wisselgeld kleiner is dan stof op dit niveau</translation>
+        <location line="+1"/>
+        <source>Specify your own public address</source>
+        <translation>Specificeer uw eigen publieke adres</translation>
     </message>
     <message>
-        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
-        <translation>Onmogelijk om blokken opnieuw af te spelen. U dient de database opnieuw op te bouwen met behulp van -reindex-chainstate.</translation>
+        <location line="+4"/>
+        <source>Bind to given address. Use [host]:port notation for IPv6</source>
+        <translation>Koppel aan gegeven adres. Gebruik [host]:poort notatie voor IPv6</translation>
     </message>
     <message>
-        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>Niet mogelijk om de databank terug te draaien naar een staat voor de vork. Je zal je blokketen opnieuw moeten downloaden</translation>
+        <location line="+1"/>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Waarschuwing: Het lijkt erop dat het netwerk geen consensus kan vinden! Sommige delvers lijken problemen te ondervinden.</translation>
+        <location line="+3"/>
+        <source>Always query for peer addresses via DNS lookup (default: 0)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Waarschuwing: Het lijkt erop dat we geen consensus kunnen vinden met onze peers! Mogelijk dient u te upgraden, of andere nodes moeten wellicht upgraden.</translation>
+        <location line="+4"/>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Drempel om verbinding te verbreken naar zich misdragende peers (standaard: 100)</translation>
     </message>
     <message>
-        <source>%d of last 100 blocks have unexpected version</source>
-        <translation>%d van de laatste 100 blokken hebben een onverwachte versie</translation>
+        <location line="+1"/>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Aantal seconden dat zich misdragende peers niet opnieuw mogen verbinden (standaard: 86400)</translation>
     </message>
     <message>
-        <source>%s corrupt, salvage failed</source>
-        <translation>%s corrupt, veiligstellen mislukt</translation>
+        <location line="+153"/>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <translation>Er is een fout opgetreden tijdens het instellen van de inkomende RPC-poort %u op IPv4: %s</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool moet minstens %d MB zijn</translation>
+        <location line="-126"/>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12973 or testnet: 22973)</source>
+        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 12973 of testnet: 22973) </translation>
     </message>
     <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Kan -%s adres niet herleiden: '%s'</translation>
+        <location line="-16"/>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Aanvaard commandoregel- en JSON-RPC-commando&apos;s</translation>
     </message>
     <message>
-        <source>Change index out of range</source>
-        <translation>Wijzigingsindex buiten bereik</translation>
+        <location line="+1"/>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Draai in de achtergrond als daemon en aanvaard commando&apos;s</translation>
     </message>
     <message>
-        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
-        <translation>Configuratie-instellingen voor %s alleen toegepast op %s network wanneer in [%s] sectie.</translation>
+        <location line="+1"/>
+        <source>Use the test network</source>
+        <translation>Gebruik het testnetwerk</translation>
     </message>
     <message>
-        <source>Copyright (C) %i-%i</source>
-        <translation>Auteursrecht (C) %i-%i</translation>
+        <location line="-23"/>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Accepteer verbindingen van buitenaf (standaard: 1 als geen -proxy of -connect is opgegeven)</translation>
     </message>
     <message>
-        <source>Corrupted block database detected</source>
-        <translation>Corrupte blokkendatabase gedetecteerd</translation>
+        <location line="+160"/>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation>Er is een fout opgetreden tijdens het instellen van de inkomende RPC-poort %u op IPv6, terugval naar IPv4: %s</translation>
     </message>
     <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation>Wilt u de blokkendatabase nu herbouwen?</translation>
+        <location line="-84"/>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld.  Dit zijn de transactiekosten die u betaalt bij het versturen van een transactie.</translation>
     </message>
     <message>
-        <source>Error initializing block database</source>
-        <translation>Fout bij intialisatie blokkendatabase</translation>
+        <location line="+46"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Estoque will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is Estoque zal niet goed werken.</translation>
     </message>
     <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>Probleem met initializeren van de database-omgeving %s!</translation>
+        <location line="-19"/>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Waarschuwing: Fout bij het lezen van wallet.dat! Alle sleutels zijn in goede orde uitgelezen, maar transactiedata of adresboeklemma&apos;s zouden kunnen ontbreken of fouten bevatten.</translation>
     </message>
     <message>
-        <source>Error loading %s</source>
-        <translation>Fout bij het laden van %s</translation>
+        <location line="-16"/>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Waarschuwing: wallet.dat is corrupt, data is veiliggesteld! Originele wallet.dat is opgeslagen als wallet.{tijdstip}.bak in %s; als uw balans of transacties incorrect zijn dient u een backup terug te zetten.</translation>
     </message>
     <message>
-        <source>Error loading %s: Private keys can only be disabled during creation</source>
-        <translation>Fout bij het laden van %s: Geheime sleutels kunnen alleen worden uitgeschakeld tijdens het aanmaken</translation>
+        <location line="-31"/>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Poog de geheime sleutels uit een corrupt wallet.dat bestand terug te halen</translation>
     </message>
     <message>
-        <source>Error loading %s: Wallet corrupted</source>
-        <translation>Fout bij het laden van %s: Portomonnee corrupt</translation>
+        <location line="+5"/>
+        <source>Block creation options:</source>
+        <translation>Blokcreatie-opties:</translation>
     </message>
     <message>
-        <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Fout bij laden %s: Portemonnee vereist een nieuwere versie van %s</translation>
+        <location line="-66"/>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Verbind alleen naar de gespecificeerde node(s)</translation>
     </message>
     <message>
-        <source>Error loading block database</source>
-        <translation>Fout bij het laden van blokkendatabase</translation>
+        <location line="+4"/>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Ontdek eigen IP-adres (standaard: 1 als er wordt geluisterd en geen -externalip is opgegeven)</translation>
     </message>
     <message>
-        <source>Error opening block database</source>
-        <translation>Fout bij openen blokkendatabase</translation>
-    </message>
-    <message>
+        <location line="+97"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Mislukt om op welke poort dan ook te luisteren. Gebruik -listen=0 as u dit wilt.</translation>
     </message>
     <message>
-        <source>Failed to rescan the wallet during initialization</source>
-        <translation>Portemonnee herscannen tijdens initialisatie mislukt</translation>
+        <location line="-2"/>
+        <source>Invalid -tor address: &apos;%s&apos;</source>
+        <translation>Ongeldig-tor adres: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Importing...</source>
-        <translation>Importeren...</translation>
+        <location line="+4"/>
+        <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
+        <translation>Ongeldig bedrag voor -reservebalance = &lt;bedrag&gt;</translation>
     </message>
     <message>
-        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Incorrect of geen genesisblok gevonden. Verkeerde gegevensmap voor het netwerk?</translation>
+        <location line="-85"/>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation>Maximum per-connectie ontvangstbuffer, &lt;n&gt;*1000 bytes (standaard: 5000)</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Initialisatie sanity check mislukt. %s is aan het afsluiten.</translation>
+        <location line="+1"/>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>Maximum per-connectie zendbuffer, &lt;n&gt;*1000 bytes (standaard: 1000)</translation>
     </message>
     <message>
-        <source>Invalid P2P permission: '%s'</source>
-        <translation>Ongeldige P2P-rechten: '%s'</translation>
+        <location line="-16"/>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>Verbind alleen naar nodes in netwerk &lt;net&gt; (IPv4, IPv6 of Tor)</translation>
     </message>
     <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldig bedrag voor -%s=&lt;bedrag&gt;: '%s'</translation>
+        <location line="+30"/>
+        <source>Prepend debug output with timestamp</source>
+        <translation>Voeg een tijdstempel toe aan debug output</translation>
     </message>
     <message>
-        <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldig bedrag for -discardfee=&lt;amount&gt;: '%s'</translation>
+        <location line="+36"/>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de Bitcoin wiki voor SSL-instructies)</translation>
     </message>
     <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldig bedrag voor -fallbackfee=&lt;bedrag&gt;: '%s'</translation>
+        <location line="-34"/>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Stuur trace/debug-info naar de console in plaats van het debug.log bestand</translation>
     </message>
     <message>
-        <source>Specified blocks directory "%s" does not exist.</source>
-        <translation>Opgegeven blocks map "%s" bestaat niet.</translation>
+        <location line="+33"/>
+        <source>Set maximum block size in bytes (default: 250000)</source>
+        <translation>Stel maximale block grootte in bytes in (standaard: 250000)</translation>
     </message>
     <message>
-        <source>Unknown address type '%s'</source>
-        <translation>Onbekend adrestype '%s'</translation>
+        <location line="-1"/>
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>Stel minimum blokgrootte in in bytes (standaard: 0)</translation>
     </message>
     <message>
-        <source>Unknown change type '%s'</source>
-        <translation>Onbekend wijzigingstype '%s'</translation>
+        <location line="-33"/>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Verklein debug.log-bestand bij het opstarten van de client (standaard: 1 als geen -debug)</translation>
     </message>
     <message>
-        <source>Upgrading txindex database</source>
-        <translation>Upgraden txindex database</translation>
+        <location line="-41"/>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Specificeer de time-outtijd in milliseconden (standaard: 5000)</translation>
     </message>
     <message>
-        <source>Loading P2P addresses...</source>
-        <translation>P2P-adressen aan het laden...</translation>
+        <location line="+28"/>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: 0)</translation>
     </message>
     <message>
-        <source>Error: Disk space is too low!</source>
-        <translation>Error: Opslagruimte te weinig!</translation>
+        <location line="-1"/>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: 1 als er wordt geluisterd)</translation>
     </message>
     <message>
-        <source>Loading banlist...</source>
-        <translation>Verbanningslijst aan het laden...</translation>
+        <location line="-25"/>
+        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
+        <translation>Gebruik proxy tor verborgen diensten (standaard: zelfde als -proxy)</translation>
     </message>
     <message>
-        <source>Not enough file descriptors available.</source>
-        <translation>Niet genoeg file descriptors beschikbaar.</translation>
+        <location line="+45"/>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Gebruikersnaam voor JSON-RPC-verbindingen</translation>
     </message>
     <message>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation>Prune kan niet worden geconfigureerd met een negatieve waarde.</translation>
+        <location line="+50"/>
+        <source>Verifying database integrity...</source>
+        <translation>Database integriteit wordt geverifieërd</translation>
     </message>
     <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Prune-modus is niet compatible met -txindex</translation>
+        <location line="+43"/>
+        <source>Error: Wallet locked, unable to create transaction!</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Replaying blocks...</source>
-        <translation>Blokken opnieuw aan het afspelen...</translation>
+        <location line="+2"/>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Rewinding blocks...</source>
-        <translation>Blokken aan het terugdraaien...</translation>
+        <location line="+3"/>
+        <source>Error: Transaction creation failed!</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>The source code is available from %s.</source>
-        <translation>De broncode is beschikbaar van %s.</translation>
+        <location line="+2"/>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Transaction fee and change calculation failed</source>
-        <translation>Transactievergoeding en wisselgeldberekening mislukt</translation>
+        <location line="-15"/>
+        <source>Warning</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Niet in staat om %s te verbinden op deze computer. %s draait waarschijnlijk al.</translation>
+        <location line="+1"/>
+        <source>Information</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to generate keys</source>
-        <translation>Niet mogelijk sleutels te genereren</translation>
+        <location line="-7"/>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Waarschuwing: Deze versie is verouderd, een upgrade is vereist!</translation>
     </message>
     <message>
-        <source>Unsupported logging category %s=%s.</source>
-        <translation>Niet-ondersteunde logcategorie %s=%s.</translation>
+        <location line="-23"/>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat corrupt, veiligstellen mislukt</translation>
     </message>
     <message>
-        <source>Upgrading UTXO database</source>
-        <translation>Upgraden UTXO-database</translation>
+        <location line="-55"/>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Wachtwoord voor JSON-RPC-verbindingen</translation>
     </message>
     <message>
-        <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>User Agentcommentaar (%s) bevat onveilige karakters.</translation>
+        <location line="-47"/>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verifying blocks...</source>
-        <translation>Blokken aan het controleren...</translation>
+        <location line="+17"/>
+        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <translation>Synchroniseer tijd met andere connecties. Uitschakelen als de tijd op uw systeem nauwkeurig is bijv. synchroniseren met NTP (standaard: 1)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart %s om te voltooien</translation>
+        <location line="+12"/>
+        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
+        <translation>Bij het maken van transacties, negeer ingangen met waarde minder dan dit (standaard: 0,01)</translation>
     </message>
     <message>
-        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Fout: luisteren naar binnenkomende verbindingen mislukt (luisteren gaf foutmelding %s)</translation>
+        <location line="+6"/>
+        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>ongeldig bedrag voor -maxtxfee=&lt;bedrag&gt;: '%s' (moet ten minste de minimale doorgeefvergoeding van %s zijn om vastgelopen transacties te voorkomen)</translation>
+        <location line="+2"/>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Het transactiebedrag is te klein om te versturen nadat de transactievergoeding in mindering is gebracht</translation>
+        <location line="+1"/>
+        <source>&lt;category&gt; can be:</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>U moet de database herbouwen met -reindex om terug te gaan naar de niet-prune modus. Dit zal de gehele blokketen opnieuw downloaden.</translation>
+        <location line="+4"/>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Error reading from database, shutting down.</source>
-        <translation>Fout bij het lezen van de database, afsluiten. </translation>
+        <location line="+8"/>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Sta JSON-RPC verbindingen van opgegeven IP-adres toe</translation>
     </message>
     <message>
-        <source>Error upgrading chainstate database</source>
-        <translation>Fout bij het upgraden van de ketenstaat database</translation>
+        <location line="+1"/>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Verstuur commando&apos;s naar proces dat op &lt;ip&gt; draait (standaard: 127.0.0.1)</translation>
     </message>
     <message>
-        <source>Error: Disk space is low for %s</source>
-        <translation>Fout: Weinig schijfruimte voor %s</translation>
+        <location line="+1"/>
+        <source>Wait for RPC server to start</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Ongeldig -onion adress of hostnaam: '%s'</translation>
+        <location line="+1"/>
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Invalid -proxy address or hostname: '%s'</source>
-        <translation>Ongeldig -proxy adress of hostnaam: '%s'</translation>
+        <location line="+1"/>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Voer commando uit zodra het beste blok verandert (%s in cmd wordt vervangen door blockhash)</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Ongeldig bedrag voor -paytxfee=&lt;bedrag&gt;: '%s' (Minimum %s)</translation>
+        <location line="+3"/>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Voer opdracht uit zodra een portemonneetransactie verandert (%s in cmd wordt vervangen door TxID)</translation>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Ongeldig netmask gespecificeerd in -whitelist: '%s'</translation>
+        <location line="+3"/>
+        <source>Require a confirmations for change (default: 0)</source>
+        <translation>Vereist een bevestiging voor verandering (standaard: 0)</translation>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Verplicht een poort met -whitebind op te geven: '%s'</translation>
+        <location line="+1"/>
+        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
+        <translation>Voer opdracht uit zodra een relevante waarschuwing wordt ontvangen (%s in cmd wordt vervangen door bericht)</translation>
     </message>
     <message>
-        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Verminder -maxconnections van %d naar %d, vanwege systeembeperkingen.</translation>
+        <location line="+3"/>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Vernieuw portemonnee naar nieuwste versie</translation>
     </message>
     <message>
-        <source>Section [%s] is not recognized.</source>
-        <translation>Sectie [%s] is niet herkend.</translation>
+        <location line="+1"/>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Stel sleutelpoelgrootte in op &lt;n&gt; (standaard: 100)</translation>
     </message>
     <message>
-        <source>Signing transaction failed</source>
-        <translation>Ondertekenen van transactie mislukt</translation>
+        <location line="+1"/>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Doorzoek de blokketen op ontbrekende portemonnee-transacties</translation>
     </message>
     <message>
-        <source>Specified -walletdir "%s" does not exist</source>
-        <translation>Opgegeven -walletdir "%s" bestaat niet</translation>
+        <location line="+3"/>
+        <source>How thorough the block verification is (0-6, default: 1)</source>
+        <translation>Hoe grondig het blokverificatie is (0-6, standaard: 1)</translation>
     </message>
     <message>
-        <source>Specified -walletdir "%s" is a relative path</source>
-        <translation>Opgegeven -walletdir "%s" is een relatief pad</translation>
+        <location line="+1"/>
+        <source>Imports blocks from external blk000?.dat file</source>
+        <translation>Importeer blokken van extern blk000?.dat bestand</translation>
     </message>
     <message>
-        <source>Specified -walletdir "%s" is not a directory</source>
-        <translation>Opgegeven -walletdir "%s" is geen map</translation>
+        <location line="+1"/>
+        <source>Keep at most &lt;n&gt; MiB of unconnectable blocks in memory (default: %u)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>The specified config file %s does not exist
-</source>
-        <translation>Het opgegeven configuratiebestand %s bestaat niet
-</translation>
+        <location line="+5"/>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Gebruik OpenSSL (https) voor JSON-RPC-verbindingen</translation>
     </message>
     <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>Het transactiebedrag is te klein om transactiekosten in rekening te brengen</translation>
+        <location line="+1"/>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Certificaat-bestand voor server (standaard: server.cert)</translation>
     </message>
     <message>
-        <source>This is experimental software.</source>
-        <translation>Dit is experimentele software.</translation>
+        <location line="+1"/>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Geheime sleutel voor server (standaard: server.pem)</translation>
     </message>
     <message>
-        <source>Transaction amount too small</source>
-        <translation>Transactiebedrag te klein</translation>
+        <location line="+5"/>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Transaction too large</source>
-        <translation>Transactie te groot</translation>
+        <location line="+8"/>
+        <source>Initialization sanity check failed. Estoque is shutting down.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Niet in staat om aan %s te binden op deze computer (bind gaf error %s)</translation>
+        <location line="+20"/>
+        <source>Error loading block database</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to create the PID file '%s': %s</source>
-        <translation>Kan de PID file niet creëren. '%s': %s </translation>
+        <location line="+29"/>
+        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <translation>Fout: Portemonnee ontgrendeld voor alleen staking, niet in staat om de transactie te maken.</translation>
     </message>
     <message>
-        <source>Unable to generate initial keys</source>
-        <translation>Niet mogelijk initiële sleutels te genereren</translation>
+        <location line="-14"/>
+        <source>Error: Disk space is low!</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verifying wallet(s)...</source>
-        <translation>Portomenee(n) aan het verifiëren...</translation>
+        <location line="+1"/>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>Waarschuwing: onbekende nieuwe regels geactiveerd (versionbit %i)</translation>
+        <location line="-135"/>
+        <source>This help message</source>
+        <translation>Dit helpbericht</translation>
     </message>
     <message>
-        <source>Zapping all transactions from wallet...</source>
-        <translation>Bezig met het zappen van alle transacties van de portemonnee...</translation>
+        <location line="+100"/>
+        <source>Wallet %s resides outside data directory %s.</source>
+        <translation>Portemonnee %s bevindt zich buiten de datamap %s.</translation>
     </message>
     <message>
-        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee staat zeer hoog! Transactiekosten van deze grootte kunnen worden gebruikt in een enkele transactie.</translation>
+        <location line="+46"/>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Niet in staat om aan %s te binden op deze computer (bind gaf error %d, %s)</translation>
     </message>
     <message>
-        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>Dit is de transactievergoeding die je mogelijk betaalt indien geschatte tarief niet beschikbaar is</translation>
+        <location line="-136"/>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Sta DNS-naslag toe voor -addnode, -seednode en -connect</translation>
     </message>
     <message>
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Dit product bevat software dat ontwikkeld is door het OpenSSL Project voor gebruik in de OpenSSL Toolkit %s en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
+        <location line="+121"/>
+        <source>Loading addresses...</source>
+        <translation>Adressen aan het laden...</translation>
     </message>
     <message>
-        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Totale lengte van netwerkversiestring (%i) overschrijdt maximale lengte (%i). Verminder het aantal of grootte van uacomments.</translation>
+        <location line="-10"/>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Waarschuwing: portemonnee bestand is corrupt, data is veiliggesteld! Originele %s is opgeslagen als %s in %s; als uw balans of transacties incorrect zijn dient u een backup terug te zetten.</translation>
+        <location line="+4"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Estoque</source>
+        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van Estoque</translation>
     </message>
     <message>
-        <source>%s is set very high!</source>
-        <translation>%s is zeer hoog ingesteld!</translation>
+        <location line="+1"/>
+        <source>Wallet needed to be rewritten: restart Estoque to complete</source>
+        <translation>Portemonnee moet herschreven worden: herstart Estoque om te voltooien</translation>
     </message>
     <message>
-        <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
-        <translation>Fout bij laden van portemonnee %s. Duplicaat -wallet bestandsnaam opgegeven.</translation>
+        <location line="+1"/>
+        <source>Error loading wallet.dat</source>
+        <translation>Fout bij laden wallet.dat</translation>
     </message>
     <message>
-        <source>Starting network threads...</source>
-        <translation>Netwerkthread starten...</translation>
+        <location line="-15"/>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation>Ongeldig -proxy adres: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>De portemonnee vermijdt minder te betalen dan de minimale doorgeef vergoeding.</translation>
+        <location line="-1"/>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>Onbekend netwerk gespecificeerd in -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Dit is de minimum transactievergoeding dat je betaalt op elke transactie.</translation>
+        <location line="+3"/>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation>Kan -bind adres niet herleiden: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Dit is de transactievergoeding dat je betaalt wanneer je een transactie verstuurt.</translation>
+        <location line="+2"/>
+        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
+        <translation>Kan -externlip adres niet herleiden: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Transaction amounts must not be negative</source>
-        <translation>Transactiebedragen moeten positief zijn</translation>
+        <location line="-22"/>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Ongeldig bedrag voor -paytxfee=&lt;bedrag&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation>Transactie heeft een te lange mempoolketen</translation>
+        <location line="+59"/>
+        <source>Sending...</source>
+        <translation>Versturen...</translation>
     </message>
     <message>
-        <source>Transaction must have at least one recipient</source>
-        <translation>Transactie moet ten minste één ontvanger hebben</translation>
+        <location line="+5"/>
+        <source>Invalid amount</source>
+        <translation>Ongeldig bedrag</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Onbekend netwerk gespecificeerd in -onlynet: '%s'</translation>
-    </message>
-    <message>
+        <location line="+1"/>
         <source>Insufficient funds</source>
         <translation>Ontoereikend saldo</translation>
     </message>
     <message>
-        <source>Cannot upgrade a non HD split wallet without upgrading to support pre split keypool. Please use -upgradewallet=169900 or -upgradewallet with no version specified.</source>
-        <translation>Het is niet mogelijk een non HD split portemonnee te upgraden zonder pre split keypool te ondersteunen. Gebruik -upgradewallet=169900 of -upgradewallet zonder een specifiek versie nummer.</translation>
-    </message>
-    <message>
-        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
-        <translation>Het inschatten van de vergoeding is gefaald. Fallbackfee is uitgeschakeld. Wacht een aantal blocks of schakel -fallbackfee in.</translation>
-    </message>
-    <message>
-        <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
-        <translation>Waarschuwing: Geheime sleutels gedetecteerd in portemonnee {%s} met uitgeschakelde geheime sleutels</translation>
-    </message>
-    <message>
-        <source>Cannot write to data directory '%s'; check permissions.</source>
-        <translation>Mag niet schrijven naar gegevensmap '%s'; controleer bestandsrechten.</translation>
-    </message>
-    <message>
+        <location line="-41"/>
         <source>Loading block index...</source>
         <translation>Blokindex aan het laden...</translation>
     </message>
     <message>
+        <location line="-105"/>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Voeg een node om naar te verbinden toe en probeer de verbinding open te houden</translation>
+    </message>
+    <message>
+        <location line="+131"/>
+        <source>Unable to bind to %s on this computer. Estoque is probably already running.</source>
+        <translation>Niet mogelijk om %s op deze computer. Estoque is waarschijnlijk al geopened.</translation>
+    </message>
+    <message>
+        <location line="-108"/>
+        <source>Fee per KB to add to transactions you send</source>
+        <translation>Vergoeding per KB toe te voegen aan de transacties die u verzendt</translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>How many blocks to check at startup (default: 500, 0 = all)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Ongeldig bedrag voor -mininput = &lt;bedrag&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Cannot obtain a lock on data directory %s. Estoque is probably already running.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+15"/>
         <source>Loading wallet...</source>
         <translation>Portemonnee aan het laden...</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>Cannot downgrade wallet</source>
         <translation>Kan portemonnee niet downgraden</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
-        <translation>Blokketen aan het herscannen...</translation>
+        <location line="+1"/>
+        <source>Cannot write default address</source>
+        <translation>Kan standaardadres niet schrijven</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Rescanning...</source>
+        <translation>Blokketen aan het doorzoeken...</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Done loading</source>
         <translation>Klaar met laden</translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>To use the %s option</source>
+        <translation>Om de %s optie te gebruiken</translation>
+    </message>
+    <message>
+        <location line="-27"/>
+        <source>Error</source>
+        <translation>Fout</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>U dient rpcpassword=&lt;wachtwoord&gt; in te stellen in het configuratiebestand:
+%s
+Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen permissie.</translation>
     </message>
 </context>
 </TS>

@@ -1,0 +1,2 @@
+debian/bin/estoqued usr/bin
+src/estoqued usr/lib/estoque
